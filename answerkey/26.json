@@ -1,0 +1,88 @@
+{
+    "paper_id": 26,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. A body at rest will stay at rest unless acted upon by an external force.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. A body in motion will stay in motion unless acted upon by an external force."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "options": [
+                "A. A car accelerating.",
+                "B. A book lying on a table.",
+                "C. A person pushing a swing.",
+                "D. A ball rolling down a hill."
+            ]
+        },
+        {
+            "question": "What is meant by 'inertia'?",
+            "options": [
+                "A. The tendency of an object to change its state of motion.",
+                "B. The resistance of any physical object to a change in its velocity.",
+                "C. The force that causes an object to move.",
+                "D. The speed of an object."
+            ]
+        },
+        {
+            "question": "If no net force acts on a moving object, it will:",
+            "options": [
+                "A. Speed up.",
+                "B. Slow down.",
+                "C. Change direction.",
+                "D. Continue moving at constant velocity."
+            ]
+        },
+        {
+            "question": "Which of the following best exemplifies Newton's First Law?",
+            "options": [
+                "A. A ball thrown upward comes back down.",
+                "B. A car stops when the brakes are applied.",
+                "C. A hockey puck slides on ice until friction slows it down.",
+                "D. A rocket propelling forward."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest tends to stay at rest, and an object in motion tends to stay in motion unless acted upon by a ________."
+        },
+        {
+            "question": "The property of an object to resist changes in its state of motion is called ________."
+        },
+        {
+            "question": "Newton's First Law is also known as the law of ________."
+        },
+        {
+            "question": "If a net external force is applied to an object, it will cause the object to ________."
+        },
+        {
+            "question": "A stationary object will remain ________ unless a force acts on it."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's First Law of Motion?"
+        },
+        {
+            "question": "How does inertia relate to mass?"
+        },
+        {
+            "question": "Can you give an everyday example of Newton's First Law?"
+        },
+        {
+            "question": "What happens to a moving car if no brakes are applied?"
+        },
+        {
+            "question": "Why do passengers lurch forward when a bus suddenly stops?"
+        }
+    ]
+}

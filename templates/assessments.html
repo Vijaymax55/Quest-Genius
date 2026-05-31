@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessments - Test Your Knowledge</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <a href="/" class="logo-link">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Quest-Genius Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/" class="{{ 'active' if request.path == '/' else '' }}"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="{{ url_for('summary', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'summary' else '' }}"><i class="fas fa-comment-alt"></i> Summarize & Chat</a></li>
+                <li><a href="{{ url_for('assessments', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'assessments' else '' }}"><i class="fas fa-clipboard-list"></i> Assessments</a></li>
+                <li><a href="{{ url_for('submit', assessment_id=1) }}" class="{{ 'active' if request.endpoint == 'submit' else '' }}"><i class="fas fa-check-double"></i> Evaluation</a></li>
+                <li><a href="{{ url_for('evaluate', submission_id=1) }}" class="{{ 'active' if request.endpoint == 'evaluate' else '' }}"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Generate Assessments</h2>
+            <label for="class-select">Select your class:</label>
+            <select id="class-select">
+                <option value="" disabled selected>Select Class</option>
+                <option value="Class 8">Class 8</option>
+                <option value="Class 9">Class 9</option>
+                <option value="Class 10">Class 10</option>
+            </select>
+            <br><br>
+
+            <label for="subject-select">Select your subject:</label>
+            <select id="subject-select" disabled>
+                <option value="" disabled selected>Select Subject</option>
+                <option value="Physics">Physics</option>
+                <option value="Chemistry">Chemistry</option>
+                <option value="Biology">Biology</option>
+            </select>
+            <br><br>
+
+            <label for="chapter-select">Select your chapter:</label>
+            <select id="chapter-select" disabled>
+                <option value="" disabled selected>Select Chapter</option>
+            </select>
+            <br><br>
+
+            <label for="topic-select">Select your topic:</label>
+            <select id="topic-select" disabled>
+                <option value="" disabled selected>Select Topic</option>
+            </select>
+            <br><br>
+
+            <label for="custom-topic">Or enter a custom topic:</label>
+            <input type="text" id="custom-topic" placeholder="Enter topic manually">
+            <br><br>
+
+            <button id="generate-assessment-btn" onclick="generateAssessment()" disabled>Generate Assessment</button>
+        </section>
+
+        <section id="output-section" style="display: none;">
+            <h2>Generated Assessment</h2>
+            <p><strong>Class:</strong> <span id="selected-class"></span></p>
+            <p><strong>Subject:</strong> <span id="selected-subject"></span></p>
+            <p><strong>Chapter:</strong> <span id="selected-chapter"></span></p>
+            <p><strong>Topic:</strong> <span id="selected-topic"></span></p>
+            <hr>
+            <div id="assessment-output"></div>
+
+            <!-- Add Download Buttons -->
+            <button id="download-questions-pdf">Download Questions PDF</button>
+            <button id="download-answers-pdf">Download Answers PDF</button>
+        </section>
+    </main>
+
+    <script>
+        let paperId = null; // Store the paper_id returned from the API
+
+        async function generateAssessment() {
+            const className = document.getElementById('class-select').value;
+            const subject = document.getElementById('subject-select').value;
+            const chapter = document.getElementById('chapter-select').value;
+            const topic = document.getElementById('topic-select').value;
+            const customTopic = document.getElementById('custom-topic').value.trim();
+            const finalTopic = customTopic || topic; // Use custom topic if entered, otherwise use dropdown topic
+
+            if (!className || !subject || !chapter || !finalTopic) {
+                alert('Please fill out all fields.');
+                return;
+            }
+
+            // ✅ Display selected values before making API request
+            document.getElementById('selected-class').textContent = className;
+            document.getElementById('selected-subject').textContent = subject;
+            document.getElementById('selected-chapter').textContent = chapter;
+            document.getElementById('selected-topic').textContent = finalTopic;
+            document.getElementById('output-section').style.display = 'block';
+
+            const outputSection = document.getElementById('output-section');
+            const output = document.getElementById('assessment-output');
+
+            // Show loading message
+            output.innerHTML = '<p>Generating assessment questions...</p>';
+            outputSection.style.display = 'block';
+
+            try {
+                const response = await fetch('/api/generate_assessment', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({
+                        class_name: className,
+                        subject: subject,
+                        chapter: chapter,
+                        topic: finalTopic
+                    })
+                });
+
+                const data = await response.json();
+
+                if (data.questions) {
+                    output.innerHTML = formatQuestions(data.questions);
+                    paperId = data.paper_id; // Store the paper_id for downloading PDFs
+                } else {
+                    output.innerHTML = `<p>Error: ${data.error}</p>`;
+                }
+            } catch (error) {
+                output.innerHTML = '<p>Error generating assessment. Please try again.</p>';
+                console.error("Error:", error);
+            }
+        }
+
+        function formatQuestions(questions) {
+            let formattedOutput = "<h3>Multiple Choice Questions</h3><ul>";
+            questions.mcqs.forEach((q, index) => {
+                formattedOutput += `<li>${index + 1}. ${q.question}<br>
+                    A) ${q.options[0]} &nbsp;&nbsp; B) ${q.options[1]} &nbsp;&nbsp;
+                    C) ${q.options[2]} &nbsp;&nbsp; D) ${q.options[3]}<br>
+                    <b>Answer:</b> ${q.answer}</li><br>`;
+            });
+
+            formattedOutput += "</ul><h3>Fill in the Blanks</h3><ul>";
+            questions.fill_in_the_blanks.forEach((q, index) => {
+                formattedOutput += `<li>${index + 1}. ${q.question} _____<br>
+                    <b>Answer:</b> ${q.answer}</li><br>`;
+            });
+
+            formattedOutput += "</ul><h3>Short Answer Questions</h3><ul>";
+            questions.short_questions.forEach((q, index) => {
+                formattedOutput += `<li>${index + 1}. ${q.question}<br>
+                    <b>Answer:</b> ${q.answer}</li><br>`;
+            });
+
+            formattedOutput += "</ul>";
+            return formattedOutput;
+        }
+
+        // Add event listeners for download buttons
+        document.getElementById('download-questions-pdf').addEventListener('click', () => {
+            if (paperId) {
+                window.location.href = `/api/download_questions_pdf/${paperId}`;
+            } else {
+                alert('No assessment generated yet.');
+            }
+        });
+
+        document.getElementById('download-answers-pdf').addEventListener('click', () => {
+            if (paperId) {
+                window.location.href = `/api/download_answers_pdf/${paperId}`;
+            } else {
+                alert('No assessment generated yet.');
+            }
+        });
+
+        // Enable dropdown functionality
+        document.getElementById('class-select').addEventListener('change', function () {
+            document.getElementById('subject-select').disabled = false;
+        });
+
+        document.getElementById('subject-select').addEventListener('change', function () {
+            const subject = this.value;
+            const chapterSelect = document.getElementById('chapter-select');
+            chapterSelect.disabled = false;
+
+            const chapters = {
+                Physics: ['Newton’s Laws of Motion', 'Reflection of Light', 'Gravitation'],
+                Chemistry: ['Periodic Table', 'Chemical Reactions', 'Acids and Bases'],
+                Biology: ['Cell Structure', 'Photosynthesis', 'Human Digestive System']
+            };
+
+            chapterSelect.innerHTML = '<option value="" disabled selected>Select Chapter</option>';
+            (chapters[subject] || []).forEach(chapter => {
+                chapterSelect.innerHTML += `<option value="${chapter}">${chapter}</option>`;
+            });
+        });
+
+        document.getElementById('chapter-select').addEventListener('change', function () {
+            const chapter = this.value;
+            const topicSelect = document.getElementById('topic-select');
+            topicSelect.disabled = false;
+
+            const topics = {
+                "Newton’s Laws of Motion": ['First Law', 'Second Law', 'Third Law'],
+                "Periodic Table": ['Groups and Periods', 'Trends', 'Metals and Non-Metals'],
+                "Cell Structure": ['Organelles', 'Prokaryotes vs Eukaryotes', 'Cell Membrane']
+            };
+
+            topicSelect.innerHTML = '<option value="" disabled selected>Select Topic</option>';
+            (topics[chapter] || []).forEach(topic => {
+                topicSelect.innerHTML += `<option value="${topic}">${topic}</option>`;
+            });
+        });
+
+        document.getElementById('topic-select').addEventListener('change', function () {
+            const topicSelect = this.value;
+            const customTopicInput = document.getElementById('custom-topic');
+            const generateBtn = document.getElementById('generate-assessment-btn');
+        
+            if (topicSelect) {
+                customTopicInput.disabled = true;  // Disable manual entry when a dropdown topic is chosen
+                generateBtn.disabled = false;
+            } else {
+                customTopicInput.disabled = false;
+            }
+        });
+        
+        document.getElementById('custom-topic').addEventListener('input', function () {
+            const customTopic = this.value.trim();
+            document.getElementById('topic-select').disabled = customTopic ? true : false;
+            document.getElementById('generate-assessment-btn').disabled = !customTopic && !document.getElementById('topic-select').value;
+        });
+        
+        document.getElementById('topic-select').addEventListener('change', function () {
+            document.getElementById('custom-topic').disabled = !!this.value;
+            document.getElementById('generate-assessment-btn').disabled = false;
+        });
+    </script>
+    <footer>
+        <div class="footer-left">
+            Visitors: <span id="visitor-number">0</span>
+        </div>
+        <div class="footer-center">
+            <p>&copy; 2025 Quest-Genius: All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <span id="date-time"></span>
+        </div>
+    </footer>
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

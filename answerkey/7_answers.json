@@ -1,0 +1,69 @@
+{
+    "paper_id": 7,
+    "mcqs": [
+        {
+            "question": "What does Newton's Third Law of Motion state?",
+            "answer": "B. For every action, there is an equal and opposite reaction."
+        },
+        {
+            "question": "Which of the following is an example of Newton's Third Law?",
+            "answer": "B. A rocket launching."
+        },
+        {
+            "question": "If you push against a wall, what happens according to Newton's Third Law?",
+            "answer": "B. The wall exerts an equal force back on you."
+        },
+        {
+            "question": "In which situation can we observe Newton's Third Law?",
+            "answer": "B. When a swimmer pushes water backwards."
+        },
+        {
+            "question": "What is the action-reaction pair when a bird flies?",
+            "answer": "A. Bird pushes air down, air pushes bird up."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's Third Law, for every action there is an equal and opposite ________.",
+            "answer": "reaction"
+        },
+        {
+            "question": "When a person jumps off a small boat, the boat moves ________ in the opposite direction.",
+            "answer": "backwards"
+        },
+        {
+            "question": "The force exerted by the ground on a standing person is equal to the force exerted by the person on the ________.",
+            "answer": "ground"
+        },
+        {
+            "question": "The principle of action and reaction is fundamental to ________ mechanics.",
+            "answer": "classical"
+        },
+        {
+            "question": "In a collision, the forces between two objects are equal in ________ and opposite in direction.",
+            "answer": "magnitude"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is meant by 'action' and 'reaction' in Newton's Third Law?",
+            "answer": "Action is the force exerted by one object, and reaction is the force exerted by another object in response."
+        },
+        {
+            "question": "Can you give an everyday example of Newton's Third Law?",
+            "answer": "When you walk, your foot pushes back on the ground and the ground pushes you forward."
+        },
+        {
+            "question": "Why do rockets work in space according to Newton's Third Law?",
+            "answer": "Rockets expel gas downwards, and the reaction force pushes the rocket upwards."
+        },
+        {
+            "question": "How does Newton's Third Law apply to swimming?",
+            "answer": "Swimmers push water backwards, which pushes them forward."
+        },
+        {
+            "question": "What is the significance of action-reaction pairs?",
+            "answer": "They explain how forces interact and balance in physical systems."
+        }
+    ]
+}

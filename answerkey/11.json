@@ -1,0 +1,88 @@
+{
+    "paper_id": 11,
+    "class_name": "Class 10",
+    "subject": "Physics",
+    "chapter": "Gravitation",
+    "topic": "Gravity",
+    "mcqs": [
+        {
+            "question": "What is the acceleration due to gravity on the surface of the Earth?",
+            "options": [
+                "A. 9.8 m/s\u00b2",
+                "B. 10 m/s\u00b2",
+                "C. 8.9 m/s\u00b2",
+                "D. 9.0 m/s\u00b2"
+            ]
+        },
+        {
+            "question": "Which of the following statements is true about gravitational force?",
+            "options": [
+                "A. It is always attractive",
+                "B. It is always repulsive",
+                "C. It can be both attractive and repulsive",
+                "D. It acts only on Earth"
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled, what happens to its weight?",
+            "options": [
+                "A. It halves",
+                "B. It doubles",
+                "C. It remains the same",
+                "D. It quadruples"
+            ]
+        },
+        {
+            "question": "The gravitational force between two objects is directly proportional to which of the following?",
+            "options": [
+                "A. The product of their masses",
+                "B. The sum of their masses",
+                "C. The distance between them",
+                "D. The square of their distance"
+            ]
+        },
+        {
+            "question": "Which of the following is not a unit of gravitational force?",
+            "options": [
+                "A. Newton",
+                "B. Kilogram",
+                "C. Pound",
+                "D. Joule"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The force of attraction between any two objects is called _____ force."
+        },
+        {
+            "question": "The value of 'g' at the surface of the Earth is approximately _____ m/s\u00b2."
+        },
+        {
+            "question": "The gravitational force depends on the _____ of the objects involved."
+        },
+        {
+            "question": "Gravitational force decreases as the _____ between the objects increases."
+        },
+        {
+            "question": "Weight is the product of mass and _____."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between mass and weight?"
+        },
+        {
+            "question": "What causes weightlessness in space?"
+        },
+        {
+            "question": "How does gravity affect the motion of celestial bodies?"
+        },
+        {
+            "question": "What is the significance of Newton's law of universal gravitation?"
+        },
+        {
+            "question": "How do you calculate the weight of an object?"
+        }
+    ]
+}

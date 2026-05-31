@@ -1,0 +1,69 @@
+{
+    "paper_id": 16,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "answer": "B"
+        },
+        {
+            "question": "In the absence of a net force, an object's velocity will:",
+            "answer": "B"
+        },
+        {
+            "question": "If a hockey puck slides on ice and eventually stops, what has acted on it?",
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following describes the concept of inertia?",
+            "answer": "A"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest tends to stay at rest, while an object in motion tends to stay in motion unless acted upon by a ______.",
+            "answer": "force"
+        },
+        {
+            "question": "The property of a body to resist changes in its state of motion is called ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "Newton's First Law is also known as the Law of ______.",
+            "answer": "Inertia"
+        },
+        {
+            "question": "The greater the mass of an object, the greater its ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "In the absence of a net force, an object's velocity will remain ______.",
+            "answer": "constant"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's First Law of Motion?",
+            "answer": "It states that an object at rest remains at rest and an object in motion remains in motion unless acted upon by a net external force."
+        },
+        {
+            "question": "Give an example of inertia in daily life.",
+            "answer": "A passenger lurching forward in a car when it suddenly stops."
+        },
+        {
+            "question": "Why do we wear seatbelts in cars?",
+            "answer": "To counteract the effects of inertia and prevent injury during sudden stops."
+        },
+        {
+            "question": "What happens to a ball thrown in space?",
+            "answer": "It continues to move in the same direction at a constant speed due to the absence of friction and air resistance."
+        },
+        {
+            "question": "Explain how Newton's First Law applies to a book on a table.",
+            "answer": "The book remains at rest on the table until a force is applied to it."
+        }
+    ]
+}

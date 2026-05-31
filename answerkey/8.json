@@ -1,0 +1,88 @@
+{
+    "paper_id": 8,
+    "class_name": "Class 9",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Second Law",
+    "mcqs": [
+        {
+            "question": "According to Newton's second law, the force acting on an object is equal to the product of its mass and its acceleration. This is mathematically expressed as:",
+            "options": [
+                "A. F = m + a",
+                "B. F = m/a",
+                "C. F = ma",
+                "D. F = m - a"
+            ]
+        },
+        {
+            "question": "If a force of 10 N is applied to a mass of 2 kg, what is the acceleration?",
+            "options": [
+                "A. 2 m/s\u00b2",
+                "B. 5 m/s\u00b2",
+                "C. 10 m/s\u00b2",
+                "D. 20 m/s\u00b2"
+            ]
+        },
+        {
+            "question": "The SI unit of force is:",
+            "options": [
+                "A. Joule",
+                "B. Newton",
+                "C. Pascal",
+                "D. Watt"
+            ]
+        },
+        {
+            "question": "Which of the following scenarios best illustrates Newton's second law of motion?",
+            "options": [
+                "A. A ball rolling on the ground",
+                "B. A car accelerating on a highway",
+                "C. A book resting on a table",
+                "D. A pendulum swinging"
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled, while the force applied remains constant, the acceleration will:",
+            "options": [
+                "A. Double",
+                "B. Halve",
+                "C. Remain the same",
+                "D. Quadruple"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's second law, force is directly proportional to ______ and ______."
+        },
+        {
+            "question": "The formula for calculating force is ______."
+        },
+        {
+            "question": "The unit of mass in the SI system is ______."
+        },
+        {
+            "question": "If an object has a mass of 1 kg and is experiencing an acceleration of 9.8 m/s\u00b2, the force acting on it is ______ N."
+        },
+        {
+            "question": "In a vacuum, all objects fall at the same ______ due to gravity."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's second law of motion?"
+        },
+        {
+            "question": "How does increasing the mass of an object affect its acceleration when a constant force is applied?"
+        },
+        {
+            "question": "What is the relationship between force, mass, and acceleration?"
+        },
+        {
+            "question": "Give an example of Newton's second law in everyday life."
+        },
+        {
+            "question": "What does the term 'net force' refer to?"
+        }
+    ]
+}

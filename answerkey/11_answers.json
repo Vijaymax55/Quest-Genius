@@ -1,0 +1,69 @@
+{
+    "paper_id": 11,
+    "mcqs": [
+        {
+            "question": "What is the acceleration due to gravity on the surface of the Earth?",
+            "answer": "A. 9.8 m/s\u00b2"
+        },
+        {
+            "question": "Which of the following statements is true about gravitational force?",
+            "answer": "A. It is always attractive"
+        },
+        {
+            "question": "If the mass of an object is doubled, what happens to its weight?",
+            "answer": "B. It doubles"
+        },
+        {
+            "question": "The gravitational force between two objects is directly proportional to which of the following?",
+            "answer": "A. The product of their masses"
+        },
+        {
+            "question": "Which of the following is not a unit of gravitational force?",
+            "answer": "D. Joule"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The force of attraction between any two objects is called _____ force.",
+            "answer": "gravitational"
+        },
+        {
+            "question": "The value of 'g' at the surface of the Earth is approximately _____ m/s\u00b2.",
+            "answer": "9.8"
+        },
+        {
+            "question": "The gravitational force depends on the _____ of the objects involved.",
+            "answer": "mass"
+        },
+        {
+            "question": "Gravitational force decreases as the _____ between the objects increases.",
+            "answer": "distance"
+        },
+        {
+            "question": "Weight is the product of mass and _____.",
+            "answer": "acceleration due to gravity"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between mass and weight?",
+            "answer": "Weight is the gravitational force acting on an object's mass."
+        },
+        {
+            "question": "What causes weightlessness in space?",
+            "answer": "Weightlessness is caused by free-fall conditions where the gravitational force is not acting on the object."
+        },
+        {
+            "question": "How does gravity affect the motion of celestial bodies?",
+            "answer": "Gravity governs the orbits of celestial bodies, keeping them in motion around larger masses."
+        },
+        {
+            "question": "What is the significance of Newton's law of universal gravitation?",
+            "answer": "It states that every mass attracts every other mass with a force that is proportional to the product of their masses."
+        },
+        {
+            "question": "How do you calculate the weight of an object?",
+            "answer": "Weight can be calculated using the formula: Weight = mass \u00d7 g, where g is the acceleration due to gravity."
+        }
+    ]
+}

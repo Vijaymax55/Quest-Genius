@@ -1,0 +1,88 @@
+{
+    "paper_id": 25,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. An object in motion stays in motion unless acted upon by an external force.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. Energy cannot be created or destroyed."
+            ]
+        },
+        {
+            "question": "Which of the following is a consequence of Newton's First Law?",
+            "options": [
+                "A. Objects at rest stay at rest.",
+                "B. Energy is conserved.",
+                "C. Forces always act in pairs.",
+                "D. Motion requires a force."
+            ]
+        },
+        {
+            "question": "What is inertia?",
+            "options": [
+                "A. The tendency of an object to remain at rest.",
+                "B. The force that opposes motion.",
+                "C. The mass of an object.",
+                "D. The speed of an object."
+            ]
+        },
+        {
+            "question": "According to Newton's First Law, a moving object will continue to move in a straight line unless:",
+            "options": [
+                "A. A force is applied.",
+                "B. It changes its speed.",
+                "C. It collides with another object.",
+                "D. It is in a vacuum."
+            ]
+        },
+        {
+            "question": "Which of the following best defines 'net force'?",
+            "options": [
+                "A. The vector sum of all forces acting on an object.",
+                "B. The total mass of an object.",
+                "C. The sum of forces in one direction only.",
+                "D. The weight of an object."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest will remain at rest unless acted upon by a _____ force."
+        },
+        {
+            "question": "Inertia is directly related to an object's _____"
+        },
+        {
+            "question": "Newton's First Law is also known as the law of _____"
+        },
+        {
+            "question": "A _____ is required to change the state of motion of an object."
+        },
+        {
+            "question": "The greater the mass of an object, the greater its _____"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is meant by the term 'inertia'?"
+        },
+        {
+            "question": "Give an example of Newton's First Law in daily life."
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "What happens to a hockey puck sliding on ice?"
+        },
+        {
+            "question": "Why do seat belts save lives during an accident?"
+        }
+    ]
+}

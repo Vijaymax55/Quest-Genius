@@ -1,0 +1,69 @@
+{
+    "paper_id": 20,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A. An object in motion stays in motion unless acted upon by an external force."
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "answer": "B. A book resting on a table."
+        },
+        {
+            "question": "Inertia is directly related to which property of an object?",
+            "answer": "B. Mass"
+        },
+        {
+            "question": "What happens to a stationary object if no net force acts on it?",
+            "answer": "B. It remains stationary."
+        },
+        {
+            "question": "If a moving object experiences no net external force, what will happen?",
+            "answer": "B. It will move at a constant speed in a straight line."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's First Law is also known as the law of ________.",
+            "answer": "Inertia"
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is called ________.",
+            "answer": "Inertia"
+        },
+        {
+            "question": "An object at rest stays at rest unless acted upon by a ________ force.",
+            "answer": "Net"
+        },
+        {
+            "question": "The mass of an object is a measure of its ________.",
+            "answer": "Inertia"
+        },
+        {
+            "question": "According to Newton's First Law, a ________ in motion tends to stay in motion.",
+            "answer": "Body"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?",
+            "answer": "Inertia is the property of an object to resist changes in its state of motion."
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life.",
+            "answer": "A passenger lurches forward when a car suddenly stops."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "Greater mass results in greater inertia, making it harder to change the object's state of motion."
+        },
+        {
+            "question": "What can cause a stationary object to move?",
+            "answer": "An external force acting on it can cause a stationary object to move."
+        },
+        {
+            "question": "What is the significance of Newton's First Law?",
+            "answer": "It explains the behavior of objects when no net forces are acting on them."
+        }
+    ]
+}

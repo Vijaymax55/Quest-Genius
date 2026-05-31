@@ -1,0 +1,69 @@
+{
+    "paper_id": 2,
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion relate to?",
+            "answer": "C. Force, mass, and acceleration"
+        },
+        {
+            "question": "If the mass of an object is doubled, how will the acceleration change if the force remains constant?",
+            "answer": "C. It will be halved"
+        },
+        {
+            "question": "Which of the following equations represents Newton's Second Law of Motion?",
+            "answer": "A. F = ma"
+        },
+        {
+            "question": "What unit is force measured in?",
+            "answer": "C. Newtons"
+        },
+        {
+            "question": "According to Newton's Second Law, if a net force acts on an object, it will...",
+            "answer": "C. Accelerate in the direction of the force"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The formula for calculating force is __________.",
+            "answer": "F = ma"
+        },
+        {
+            "question": "The unit of mass in SI units is __________.",
+            "answer": "kilogram"
+        },
+        {
+            "question": "Acceleration is defined as the rate of change of __________.",
+            "answer": "velocity"
+        },
+        {
+            "question": "In the absence of a net force, an object at rest will remain at __________.",
+            "answer": "rest"
+        },
+        {
+            "question": "Newton's Second Law states that the acceleration of an object is directly proportional to the net __________ acting on it.",
+            "answer": "force"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between force, mass, and acceleration?",
+            "answer": "Force is the product of mass and acceleration (F = ma)."
+        },
+        {
+            "question": "How does increasing mass affect acceleration for a constant force?",
+            "answer": "Increasing mass decreases acceleration if the force is constant."
+        },
+        {
+            "question": "What is the significance of the net force in Newton's Second Law?",
+            "answer": "The net force determines the acceleration of an object."
+        },
+        {
+            "question": "Can an object be accelerating if the net force is zero?",
+            "answer": "No, if the net force is zero, the object does not accelerate."
+        },
+        {
+            "question": "How does friction affect the motion of an object?",
+            "answer": "Friction opposes motion and reduces acceleration."
+        }
+    ]
+}

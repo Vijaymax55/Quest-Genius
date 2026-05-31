@@ -1,0 +1,88 @@
+{
+    "paper_id": 28,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Third Law",
+    "mcqs": [
+        {
+            "question": "According to Newton's Third Law of Motion, for every action, there is an equal and opposite:",
+            "options": [
+                "A. Force",
+                "B. Reaction",
+                "C. Speed",
+                "D. Mass"
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's Third Law of Motion?",
+            "options": [
+                "A. A car accelerating",
+                "B. A rocket launching",
+                "C. A ball rolling down a hill",
+                "D. A person jumping off a boat"
+            ]
+        },
+        {
+            "question": "If a bird pushes down on the air with its wings, the air pushes back up with equal force. This is an illustration of:",
+            "options": [
+                "A. Newton's First Law",
+                "B. Newton's Second Law",
+                "C. Newton's Third Law",
+                "D. Gravity"
+            ]
+        },
+        {
+            "question": "What happens to the forces when two objects collide according to Newton's Third Law?",
+            "options": [
+                "A. They are unequal",
+                "B. They are in the same direction",
+                "C. They are equal and opposite",
+                "D. They cancel each other out"
+            ]
+        },
+        {
+            "question": "Which statement best describes the principle of action and reaction?",
+            "options": [
+                "A. They act at the same time",
+                "B. They act on the same object",
+                "C. They are always equal",
+                "D. They act on different objects"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's Third Law states that for every action, there is an equal and opposite __________."
+        },
+        {
+            "question": "When a swimmer pushes the water backwards, the water pushes the swimmer __________."
+        },
+        {
+            "question": "In a rocket launch, the action is the gas being pushed __________."
+        },
+        {
+            "question": "The forces involved in Newton's Third Law act on __________ objects."
+        },
+        {
+            "question": "The concept of action and reaction is fundamental to __________ motion."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's Third Law of Motion?"
+        },
+        {
+            "question": "Give an example of Newton's Third Law in sports."
+        },
+        {
+            "question": "How does Newton's Third Law apply to walking?"
+        },
+        {
+            "question": "What happens during a car crash according to Newton's Third Law?"
+        },
+        {
+            "question": "Why do astronauts float in space despite gravity?"
+        }
+    ]
+}

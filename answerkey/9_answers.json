@@ -1,0 +1,69 @@
+{
+    "paper_id": 9,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "answer": "B"
+        },
+        {
+            "question": "Inertia depends on the ______ of an object.",
+            "answer": "B"
+        },
+        {
+            "question": "Which scenario best illustrates Newton's First Law?",
+            "answer": "B"
+        },
+        {
+            "question": "Newton's First Law is also known as the Law of ______.",
+            "answer": "B"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object in motion will stay in motion unless acted upon by a ______.",
+            "answer": "force"
+        },
+        {
+            "question": "The property of an object to resist changes in its state of motion is called ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "The First Law of Motion was formulated by ______.",
+            "answer": "Isaac Newton"
+        },
+        {
+            "question": "Inertial frames of reference are those where Newton's First Law holds true, meaning that no ______ is acting on the object.",
+            "answer": "net force"
+        },
+        {
+            "question": "The greater the mass of an object, the greater its ______.",
+            "answer": "inertia"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?",
+            "answer": "Inertia is the tendency of an object to resist changes to its state of motion."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "Greater mass results in greater inertia, making it harder to change the object's motion."
+        },
+        {
+            "question": "Can an object be at rest and still have inertia?",
+            "answer": "Yes, an object at rest has inertia; it will remain at rest until a force acts on it."
+        },
+        {
+            "question": "Give an everyday example of Newton's First Law.",
+            "answer": "A passenger lurches forward in a car when it suddenly stops."
+        },
+        {
+            "question": "What role does friction play in Newton's First Law?",
+            "answer": "Friction is a force that can oppose motion, affecting how objects move or come to rest."
+        }
+    ]
+}

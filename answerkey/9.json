@@ -1,0 +1,88 @@
+{
+    "paper_id": 9,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. An object at rest will stay at rest unless acted upon by a force.",
+                "B. Every action has an equal and opposite reaction.",
+                "C. Force equals mass times acceleration.",
+                "D. Energy can neither be created nor destroyed."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "options": [
+                "A. A car speeding up.",
+                "B. A book lying on a table.",
+                "C. A ball being thrown.",
+                "D. A bicycle coming to a stop."
+            ]
+        },
+        {
+            "question": "Inertia depends on the ______ of an object.",
+            "options": [
+                "A. Shape",
+                "B. Mass",
+                "C. Color",
+                "D. Volume"
+            ]
+        },
+        {
+            "question": "Which scenario best illustrates Newton's First Law?",
+            "options": [
+                "A. A person pushing a box.",
+                "B. A train moving at constant speed.",
+                "C. A rocket launching into space.",
+                "D. A ball rolling down a hill."
+            ]
+        },
+        {
+            "question": "Newton's First Law is also known as the Law of ______.",
+            "options": [
+                "A. Gravity",
+                "B. Inertia",
+                "C. Motion",
+                "D. Acceleration"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object in motion will stay in motion unless acted upon by a ______."
+        },
+        {
+            "question": "The property of an object to resist changes in its state of motion is called ______."
+        },
+        {
+            "question": "The First Law of Motion was formulated by ______."
+        },
+        {
+            "question": "Inertial frames of reference are those where Newton's First Law holds true, meaning that no ______ is acting on the object."
+        },
+        {
+            "question": "The greater the mass of an object, the greater its ______."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?"
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "Can an object be at rest and still have inertia?"
+        },
+        {
+            "question": "Give an everyday example of Newton's First Law."
+        },
+        {
+            "question": "What role does friction play in Newton's First Law?"
+        }
+    ]
+}

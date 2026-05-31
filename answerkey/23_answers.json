@@ -1,0 +1,69 @@
+{
+    "paper_id": 23,
+    "mcqs": [
+        {
+            "question": "Which of the following is a strong acid?",
+            "answer": "B. Sulfuric acid"
+        },
+        {
+            "question": "What is the pH range of acids?",
+            "answer": "A. 0-7"
+        },
+        {
+            "question": "Which of the following is an organic acid?",
+            "answer": "C. Lactic acid"
+        },
+        {
+            "question": "What is the chemical formula of hydrochloric acid?",
+            "answer": "B. HCl"
+        },
+        {
+            "question": "Acids turn blue litmus paper:",
+            "answer": "A. Red"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The substance that donates protons in a chemical reaction is called an ______.",
+            "answer": "acid"
+        },
+        {
+            "question": "The pH of pure water is ______.",
+            "answer": "7"
+        },
+        {
+            "question": "Vinegar contains ______ acid.",
+            "answer": "acetic"
+        },
+        {
+            "question": "The reaction of an acid with a base produces ______.",
+            "answer": "salt"
+        },
+        {
+            "question": "Citric acid is found in ______ fruits.",
+            "answer": "citrus"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is an acid?",
+            "answer": "An acid is a substance that donates protons (H+) in a solution."
+        },
+        {
+            "question": "Give an example of a strong acid.",
+            "answer": "Sulfuric acid (H2SO4) is an example of a strong acid."
+        },
+        {
+            "question": "What happens to litmus paper in the presence of an acid?",
+            "answer": "It turns blue litmus paper red."
+        },
+        {
+            "question": "Name a common household acid.",
+            "answer": "Vinegar, which contains acetic acid."
+        },
+        {
+            "question": "What is the effect of acids on metals?",
+            "answer": "Acids react with metals to produce hydrogen gas and a salt."
+        }
+    ]
+}

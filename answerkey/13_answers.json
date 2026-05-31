@@ -1,0 +1,69 @@
+{
+    "paper_id": 13,
+    "mcqs": [
+        {
+            "question": "What is the horizontal row in the periodic table called?",
+            "answer": "B. Period"
+        },
+        {
+            "question": "Which of the following elements is found in Group 1 of the periodic table?",
+            "answer": "C. Sodium"
+        },
+        {
+            "question": "How many groups are there in the modern periodic table?",
+            "answer": "B. 18"
+        },
+        {
+            "question": "Elements in the same group of the periodic table have similar:",
+            "answer": "B. Chemical properties"
+        },
+        {
+            "question": "Which of the following elements is a noble gas?",
+            "answer": "C. Argon"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The vertical columns in the periodic table are called ________.",
+            "answer": "Groups"
+        },
+        {
+            "question": "The elements in Group 17 are known as ________.",
+            "answer": "Halogens"
+        },
+        {
+            "question": "The periodic table is arranged in increasing order of ________ number.",
+            "answer": "Atomic"
+        },
+        {
+            "question": "The first period of the periodic table contains only ________ elements.",
+            "answer": "Two"
+        },
+        {
+            "question": "Elements in the same period have the same number of ________.",
+            "answer": "Shells"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is a group in the periodic table?",
+            "answer": "A group is a vertical column of elements that share similar properties."
+        },
+        {
+            "question": "Name one characteristic of elements in the same group.",
+            "answer": "They have similar chemical properties."
+        },
+        {
+            "question": "How many periods are there in the periodic table?",
+            "answer": "There are seven periods in the periodic table."
+        },
+        {
+            "question": "What is the significance of the atomic number in the periodic table?",
+            "answer": "The atomic number determines the position of an element in the periodic table."
+        },
+        {
+            "question": "Which group contains the alkali metals?",
+            "answer": "Group 1 contains the alkali metals."
+        }
+    ]
+}

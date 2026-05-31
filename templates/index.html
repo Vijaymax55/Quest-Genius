@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Assisted Personalized Learning</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Additional CSS for alternating layout */
+        .content-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+            padding: 60px 0;
+        }
+
+        .content-text {
+            padding: 30px;
+        }
+
+        .image-wrapper {
+            position: relative;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+
+        .image-wrapper img {
+            width: 100%;
+            height: auto;
+            transition: transform 0.3s ease;
+        }
+
+        .image-wrapper:hover img {
+            transform: scale(1.05);
+        }
+
+        .alternate .content-text { order: 2; }
+        .alternate .image-wrapper { order: 1; }
+
+        .stat-badge {
+            background: rgba(10, 10, 48, 0.9);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 30px;
+            margin: 20px 0;
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .testimonial-card {
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .content-section {
+                grid-template-columns: 1fr;
+                text-align: center;
+            }
+            .content-text, .image-wrapper {
+                order: initial !important;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header with Logo and Navigation -->
+    <header>
+        <a href="/" class="logo-link">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Quest-Genius Logo" class="logo">
+        </a>
+        
+        <nav>
+            <ul>
+                <li><a href="/" class="{{ 'active' if request.path == '/' else '' }}"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="{{ url_for('summary', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'summary' else '' }}"><i class="fas fa-comment-alt"></i> Summarize & Chat</a></li>
+                <li><a href="{{ url_for('assessments', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'assessments' else '' }}"><i class="fas fa-clipboard-list"></i> Assessments</a></li>
+                <li><a href="{{ url_for('submit', assessment_id=1) }}" class="{{ 'active' if request.endpoint == 'submit' else '' }}"><i class="fas fa-check-double"></i> Evaluation</a></li>
+                <li><a href="{{ url_for('evaluate', submission_id=1) }}" class="{{ 'active' if request.endpoint == 'evaluate' else '' }}"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Section 1: The Challenge -->
+        <section class="content-section">
+            <div class="content-text">
+                <h2>The Challenge: Education in India</h2>
+                <p>In India, education is the cornerstone of a brighter future. However, students often face significant challenges:</p>
+                <ul class="feature-list">
+                    <li class="feature-item">
+                        <i class="fas fa-users-slash"></i>
+                        <div>
+                            <strong>Limited Access to Teachers:</strong> 
+                            <span>With a high student-to-teacher ratio, individual attention is often impossible.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>Unavailability of Teachers:</strong> 
+                            <span>Teachers cannot be available 24/7, leaving students with unanswered questions.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-ban"></i>
+                        <div>
+                            <strong>Distractions Online:</strong> 
+                            <span>When students turn to the internet for help, they are exposed to distracting and inappropriate content.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div>
+                            <strong>Lack of Personalized Learning:</strong> 
+                            <span>Traditional methods often fail to cater to individual learning needs and paces.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="image-wrapper">
+                <img src="{{ url_for('static', filename='images/education-challenge.jpg') }}" alt="Education Challenge">
+            </div>
+        </section>
+    
+        <!-- Section 2: The Solution -->
+        <section class="content-section alternate">
+            <div class="content-text">
+                <h2>The Solution: AI-Assisted Learning</h2>
+                <p>Our <strong>AI-Assisted Learning Platform</strong> is designed to address these challenges head-on. Built specifically for high school students (grades 8-10), this platform provides:</p>
+                <ul class="solution-grid">
+                    <li class="solution-item">
+                        <i class="fas fa-brain"></i>
+                        <div>
+                            <strong>Personalized Learning:</strong> 
+                            <span>AI adapts to each student's learning style and pace, ensuring no one is left behind.</span>
+                        </div>
+                    </li>
+                    <li class="solution-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <strong>24/7 Assistance:</strong> 
+                            <span>Students can learn, revise, and get help anytime, without relying on a teacher's availability.</span>
+                        </div>
+                    </li>
+                    <li class="solution-item">
+                        <i class="fas fa-shield-alt"></i>
+                        <div>
+                            <strong>Safe and Focused Environment:</strong> 
+                            <span>No distractions or inappropriate content—just pure, focused learning.</span>
+                        </div>
+                    </li>
+                    <li class="solution-item">
+                        <i class="fas fa-chart-line"></i>
+                        <div>
+                            <strong>Performance Tracking:</strong> 
+                            <span>Students can track their progress over time and identify areas for improvement.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="image-wrapper">
+                <img src="{{ url_for('static', filename='images/ai-education.jpg') }}" alt="AI in Education">
+            </div>
+        </section>
+    
+        <!-- Section 3: Features -->
+        <section class="feature-card features-section">
+            <div class="card-header">
+                <i class="fas fa-star text-warning"></i>
+                <h2>Key Features of Our Platform</h2>
+            </div>
+            <div class="card-content">
+                <p>Our platform is packed with powerful features to make learning engaging, effective, and fun:</p>
+                <ul class="features-grid">
+                    <li class="feature-item">
+                        <i class="fas fa-comment-dots"></i>
+                        <div>
+                            <strong>Summarize & Chat:</strong> 
+                            <span>Get concise summaries of complex topics and interact with an AI chatbot for instant clarification.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-clipboard-list"></i>
+                        <div>
+                            <strong>Assessment Generation:</strong> 
+                            <span>Practice with AI-generated assessments tailored to your learning needs.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-check-double"></i>
+                        <div>
+                            <strong>Assessment Evaluation:</strong> 
+                            <span>Get detailed feedback on your performance to understand your strengths and weaknesses.</span>
+                        </div>
+                    </li>
+                    <li class="feature-item">
+                        <i class="fas fa-analytics"></i>
+                        <div>
+                            <strong>Progress Tracking:</strong> 
+                            <span>Monitor your growth over time with comprehensive analytics.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    
+        <!-- Section 4: Why Choose Us? -->
+        <section class="feature-card why-choose-section">
+            <div class="card-header">
+                <i class="fas fa-award text-success"></i>
+                <h2>Why Choose AI-Assisted Learning?</h2>
+            </div>
+            <div class="card-content">
+                <p>In a world full of distractions, our platform provides a <strong>robust framework for AI in education</strong>. It ensures that students can learn effectively, even without the constant presence of an instructor. By leveraging cutting-edge AI technology, we aim to:</p>
+                <ul class="benefits-list">
+                    <li>
+                        <i class="fas fa-user-graduate"></i>
+                        <div>
+                            <span>Empower students to take control of their learning journey.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-lock"></i>
+                        <div>
+                            <span>Provide a safe and distraction-free environment for learning.</span>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-bridge"></i>
+                        <div>
+                            <span>Bridge the gap between traditional education and modern technology.</span>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-section">
+            <div class="footer-item">
+                <i class="fas fa-users"></i>
+                Visitors: <span id="visitor-number">0</span>
+            </div>
+        </div>
+        
+        <div class="footer-section">
+            <p>&copy; 2025 Quest-Genius. All rights reserved.</p>
+        </div>
+        
+        <div class="footer-section">
+            <div class="footer-item">
+                <i class="fas fa-clock"></i>
+                <span id="date-time"></span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

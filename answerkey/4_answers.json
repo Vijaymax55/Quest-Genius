@@ -1,0 +1,69 @@
+{
+    "paper_id": 4,
+    "mcqs": [
+        {
+            "question": "What is the law that governs the reflection of light?",
+            "answer": "B"
+        },
+        {
+            "question": "The angle of incidence is measured from which line?",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following surfaces reflects light the best?",
+            "answer": "B"
+        },
+        {
+            "question": "A plane mirror produces an image that is:",
+            "answer": "A"
+        },
+        {
+            "question": "In which type of mirror does the image appear enlarged?",
+            "answer": "B"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The point where the incident ray strikes the mirror is called the __________.",
+            "answer": "point of incidence"
+        },
+        {
+            "question": "The line perpendicular to the surface of the mirror at the point of incidence is called the __________.",
+            "answer": "normal"
+        },
+        {
+            "question": "The angle between the incident ray and the normal is called the angle of __________.",
+            "answer": "incidence"
+        },
+        {
+            "question": "In a concave mirror, parallel rays of light converge at a point called the __________.",
+            "answer": "focus"
+        },
+        {
+            "question": "The image formed by a convex mirror is always __________.",
+            "answer": "virtual"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "Define reflection of light.",
+            "answer": "Reflection of light is the bouncing back of light rays when they strike a surface."
+        },
+        {
+            "question": "What is a plane mirror?",
+            "answer": "A plane mirror is a flat surface that reflects light to produce a virtual image."
+        },
+        {
+            "question": "What happens to light rays when they hit a rough surface?",
+            "answer": "They scatter in multiple directions due to irregularities on the surface."
+        },
+        {
+            "question": "Explain the difference between real and virtual images.",
+            "answer": "Real images can be projected on a screen, while virtual images cannot be projected."
+        },
+        {
+            "question": "What type of image does a convex mirror produce?",
+            "answer": "A convex mirror produces a virtual, upright, and diminished image."
+        }
+    ]
+}

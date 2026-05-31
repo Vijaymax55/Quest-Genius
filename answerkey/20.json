@@ -1,0 +1,88 @@
+{
+    "paper_id": 20,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. An object in motion stays in motion unless acted upon by an external force.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. Energy cannot be created or destroyed."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "options": [
+                "A. A car accelerating on a highway.",
+                "B. A book resting on a table.",
+                "C. A ball rolling down a hill.",
+                "D. A rocket taking off."
+            ]
+        },
+        {
+            "question": "Inertia is directly related to which property of an object?",
+            "options": [
+                "A. Speed",
+                "B. Mass",
+                "C. Volume",
+                "D. Shape"
+            ]
+        },
+        {
+            "question": "What happens to a stationary object if no net force acts on it?",
+            "options": [
+                "A. It moves.",
+                "B. It remains stationary.",
+                "C. It accelerates.",
+                "D. It changes direction."
+            ]
+        },
+        {
+            "question": "If a moving object experiences no net external force, what will happen?",
+            "options": [
+                "A. It will stop.",
+                "B. It will move at a constant speed in a straight line.",
+                "C. It will speed up.",
+                "D. It will change direction."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's First Law is also known as the law of ________."
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is called ________."
+        },
+        {
+            "question": "An object at rest stays at rest unless acted upon by a ________ force."
+        },
+        {
+            "question": "The mass of an object is a measure of its ________."
+        },
+        {
+            "question": "According to Newton's First Law, a ________ in motion tends to stay in motion."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?"
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life."
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "What can cause a stationary object to move?"
+        },
+        {
+            "question": "What is the significance of Newton's First Law?"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "paper_id": 5,
+    "mcqs": [
+        {
+            "question": "What is the horizontal row in the periodic table called?",
+            "answer": "B. Period"
+        },
+        {
+            "question": "Which of the following elements belongs to Group 1 of the periodic table?",
+            "answer": "B. Sodium"
+        },
+        {
+            "question": "Elements in the same group of the periodic table have similar:",
+            "answer": "C. Chemical properties"
+        },
+        {
+            "question": "How many groups are there in the modern periodic table?",
+            "answer": "B. 18"
+        },
+        {
+            "question": "Which of the following is not a characteristic of noble gases?",
+            "answer": "C. They are highly reactive"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The vertical columns in the periodic table are known as __________.",
+            "answer": "groups"
+        },
+        {
+            "question": "Elements that are in the same group have the same number of __________ in their outermost shell.",
+            "answer": "valence electrons"
+        },
+        {
+            "question": "The periodic table arranges elements according to increasing __________.",
+            "answer": "atomic number"
+        },
+        {
+            "question": "The first element in Group 17 is __________.",
+            "answer": "Fluorine"
+        },
+        {
+            "question": "The elements in the same period have the same number of __________.",
+            "answer": "electron shells"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the significance of the periodic law?",
+            "answer": "The periodic law states that the properties of elements are a periodic function of their atomic numbers."
+        },
+        {
+            "question": "Name the elements found in Group 2.",
+            "answer": "Beryllium, Magnesium, Calcium, Strontium, Barium, and Radium."
+        },
+        {
+            "question": "What determines the position of an element in the periodic table?",
+            "answer": "The position is determined by its atomic number and electron configuration."
+        },
+        {
+            "question": "Why are alkali metals stored in oil?",
+            "answer": "Alkali metals are stored in oil to prevent them from reacting with moisture and oxygen in the air."
+        },
+        {
+            "question": "What are metalloids, and where are they located in the periodic table?",
+            "answer": "Metalloids have properties of both metals and nonmetals and are located between metals and nonmetals in the periodic table."
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "paper_id": 19,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "C. Both A and B."
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "answer": "C. A book resting on a table."
+        },
+        {
+            "question": "In the absence of external forces, an object will:",
+            "answer": "D. Maintain its state of motion."
+        },
+        {
+            "question": "Which of the following terms is associated with inertia?",
+            "answer": "B. Mass."
+        },
+        {
+            "question": "An object that is not moving will remain still unless:",
+            "answer": "A. A force acts on it."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object at rest will remain at rest unless acted upon by a ________ force.",
+            "answer": "net"
+        },
+        {
+            "question": "Inertia is the tendency of an object to resist any change in its ________.",
+            "answer": "state of motion"
+        },
+        {
+            "question": "The property of matter that causes it to have inertia is called ________.",
+            "answer": "mass"
+        },
+        {
+            "question": "If no net force acts on an object, it will continue in its state of ________.",
+            "answer": "rest or uniform motion"
+        },
+        {
+            "question": "Newton's First Law is sometimes called the law of ________.",
+            "answer": "inertia"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?",
+            "answer": "Inertia is the property of an object to resist changes in its state of motion."
+        },
+        {
+            "question": "How does mass relate to inertia?",
+            "answer": "The greater the mass of an object, the greater its inertia."
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life.",
+            "answer": "A passenger lurching forward in a bus when it suddenly stops."
+        },
+        {
+            "question": "What happens to a ball thrown in space?",
+            "answer": "It will continue moving indefinitely in the same direction at constant speed."
+        },
+        {
+            "question": "What is the significance of the net force in Newton's First Law?",
+            "answer": "The net force determines whether an object's motion changes; if it's zero, the motion remains unchanged."
+        }
+    ]
+}

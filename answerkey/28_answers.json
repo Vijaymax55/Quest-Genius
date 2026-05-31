@@ -1,0 +1,69 @@
+{
+    "paper_id": 28,
+    "mcqs": [
+        {
+            "question": "According to Newton's Third Law of Motion, for every action, there is an equal and opposite:",
+            "answer": "B. Reaction"
+        },
+        {
+            "question": "Which of the following is an example of Newton's Third Law of Motion?",
+            "answer": "D. A person jumping off a boat"
+        },
+        {
+            "question": "If a bird pushes down on the air with its wings, the air pushes back up with equal force. This is an illustration of:",
+            "answer": "C. Newton's Third Law"
+        },
+        {
+            "question": "What happens to the forces when two objects collide according to Newton's Third Law?",
+            "answer": "C. They are equal and opposite"
+        },
+        {
+            "question": "Which statement best describes the principle of action and reaction?",
+            "answer": "D. They act on different objects"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's Third Law states that for every action, there is an equal and opposite __________.",
+            "answer": "reaction"
+        },
+        {
+            "question": "When a swimmer pushes the water backwards, the water pushes the swimmer __________.",
+            "answer": "forwards"
+        },
+        {
+            "question": "In a rocket launch, the action is the gas being pushed __________.",
+            "answer": "downward"
+        },
+        {
+            "question": "The forces involved in Newton's Third Law act on __________ objects.",
+            "answer": "different"
+        },
+        {
+            "question": "The concept of action and reaction is fundamental to __________ motion.",
+            "answer": "everyday"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's Third Law of Motion?",
+            "answer": "It states that for every action, there is an equal and opposite reaction."
+        },
+        {
+            "question": "Give an example of Newton's Third Law in sports.",
+            "answer": "When a player pushes off the ground to jump, the ground pushes back with equal force."
+        },
+        {
+            "question": "How does Newton's Third Law apply to walking?",
+            "answer": "When we walk, our foot pushes backward on the ground, and the ground pushes us forward."
+        },
+        {
+            "question": "What happens during a car crash according to Newton's Third Law?",
+            "answer": "The forces involved are equal and opposite between the two colliding cars."
+        },
+        {
+            "question": "Why do astronauts float in space despite gravity?",
+            "answer": "They float because they are in free fall, experiencing equal gravitational force downwards and no opposing force."
+        }
+    ]
+}

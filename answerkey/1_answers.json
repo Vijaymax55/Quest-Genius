@@ -1,0 +1,69 @@
+{
+    "paper_id": 1,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A. A body at rest will stay at rest unless acted upon by an external force."
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "answer": "A. A person sitting in a moving bus feels pushed back when the bus suddenly stops."
+        },
+        {
+            "question": "Inertia depends on which property of an object?",
+            "answer": "A. Mass"
+        },
+        {
+            "question": "If a hockey puck slides on ice, it will continue to slide until:",
+            "answer": "C. Friction slows it down."
+        },
+        {
+            "question": "An object will remain in motion unless:",
+            "answer": "B. It is acted upon by an unbalanced force."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object at rest will remain at rest unless acted upon by a __________.",
+            "answer": "force"
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is called __________.",
+            "answer": "inertia"
+        },
+        {
+            "question": "An object's mass is a measure of its __________.",
+            "answer": "inertia"
+        },
+        {
+            "question": "A __________ force is required to change the motion of an object.",
+            "answer": "net"
+        },
+        {
+            "question": "Newton's First Law is also known as the law of __________.",
+            "answer": "inertia"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?",
+            "answer": "Inertia is the property of an object to resist changes in its state of motion."
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life.",
+            "answer": "A book on a table remains at rest until someone picks it up."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "Greater mass results in greater inertia, making it harder to change its motion."
+        },
+        {
+            "question": "What happens to a ball rolling on a surface if no external forces act on it?",
+            "answer": "It will continue rolling indefinitely at a constant speed."
+        },
+        {
+            "question": "Why is it important to wear seat belts in a car?",
+            "answer": "To counteract inertia; during sudden stops, the body tends to continue moving forward."
+        }
+    ]
+}

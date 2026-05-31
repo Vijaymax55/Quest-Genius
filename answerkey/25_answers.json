@@ -1,0 +1,69 @@
+{
+    "paper_id": 25,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A. An object in motion stays in motion unless acted upon by an external force."
+        },
+        {
+            "question": "Which of the following is a consequence of Newton's First Law?",
+            "answer": "A. Objects at rest stay at rest."
+        },
+        {
+            "question": "What is inertia?",
+            "answer": "A. The tendency of an object to remain at rest."
+        },
+        {
+            "question": "According to Newton's First Law, a moving object will continue to move in a straight line unless:",
+            "answer": "A. A force is applied."
+        },
+        {
+            "question": "Which of the following best defines 'net force'?",
+            "answer": "A. The vector sum of all forces acting on an object."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest will remain at rest unless acted upon by a _____ force.",
+            "answer": "net"
+        },
+        {
+            "question": "Inertia is directly related to an object's _____",
+            "answer": "mass"
+        },
+        {
+            "question": "Newton's First Law is also known as the law of _____",
+            "answer": "inertia"
+        },
+        {
+            "question": "A _____ is required to change the state of motion of an object.",
+            "answer": "force"
+        },
+        {
+            "question": "The greater the mass of an object, the greater its _____",
+            "answer": "inertia"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is meant by the term 'inertia'?",
+            "answer": "Inertia is the tendency of an object to resist changes in its state of motion."
+        },
+        {
+            "question": "Give an example of Newton's First Law in daily life.",
+            "answer": "A passenger lurches forward in a bus when it suddenly stops."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "Greater mass results in greater inertia."
+        },
+        {
+            "question": "What happens to a hockey puck sliding on ice?",
+            "answer": "It continues to slide in a straight line until friction or another force stops it."
+        },
+        {
+            "question": "Why do seat belts save lives during an accident?",
+            "answer": "They provide the necessary force to stop the inertia of the body."
+        }
+    ]
+}

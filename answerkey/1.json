@@ -1,0 +1,88 @@
+{
+    "paper_id": 1,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. A body at rest will stay at rest unless acted upon by an external force.",
+                "B. The acceleration of an object is directly proportional to the net force acting on it.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. All objects fall at the same rate."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "options": [
+                "A. A person sitting in a moving bus feels pushed back when the bus suddenly stops.",
+                "B. A ball rolling on the ground slows down due to friction.",
+                "C. A rocket launching into space.",
+                "D. A car accelerating."
+            ]
+        },
+        {
+            "question": "Inertia depends on which property of an object?",
+            "options": [
+                "A. Mass",
+                "B. Volume",
+                "C. Shape",
+                "D. Color"
+            ]
+        },
+        {
+            "question": "If a hockey puck slides on ice, it will continue to slide until:",
+            "options": [
+                "A. It hits a wall.",
+                "B. A player hits it.",
+                "C. Friction slows it down.",
+                "D. It stops moving."
+            ]
+        },
+        {
+            "question": "An object will remain in motion unless:",
+            "options": [
+                "A. It is stopped by friction.",
+                "B. It is acted upon by an unbalanced force.",
+                "C. It loses energy.",
+                "D. It reaches the end of its path."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object at rest will remain at rest unless acted upon by a __________."
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is called __________."
+        },
+        {
+            "question": "An object's mass is a measure of its __________."
+        },
+        {
+            "question": "A __________ force is required to change the motion of an object."
+        },
+        {
+            "question": "Newton's First Law is also known as the law of __________."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?"
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life."
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "What happens to a ball rolling on a surface if no external forces act on it?"
+        },
+        {
+            "question": "Why is it important to wear seat belts in a car?"
+        }
+    ]
+}

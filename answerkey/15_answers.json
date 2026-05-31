@@ -1,0 +1,69 @@
+{
+    "paper_id": 15,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A. An object in motion will stay in motion unless acted upon by an external force."
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "answer": "C. A book resting on a table remains at rest."
+        },
+        {
+            "question": "Inertia is related to which of the following?",
+            "answer": "A. Mass"
+        },
+        {
+            "question": "An object will continue to move at a constant velocity unless acted upon by a ___ force.",
+            "answer": "B. Unbalanced"
+        },
+        {
+            "question": "What is the term used for the tendency of an object to resist changes in its state of motion?",
+            "answer": "C. Inertia"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object at rest will remain at rest unless acted upon by an ___ force.",
+            "answer": "external"
+        },
+        {
+            "question": "The property of an object that resists changes in its motion is called ___.",
+            "answer": "inertia"
+        },
+        {
+            "question": "If no net force acts on an object, its velocity will remain ___.",
+            "answer": "constant"
+        },
+        {
+            "question": "Newton's First Law is also known as the Law of ___.",
+            "answer": "Inertia"
+        },
+        {
+            "question": "A stationary object requires a ___ force to start moving.",
+            "answer": "net"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?",
+            "answer": "Inertia is the tendency of an object to resist changes in its state of motion."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "The greater the mass of an object, the greater its inertia."
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life.",
+            "answer": "A passenger lurches forward in a bus when it suddenly stops."
+        },
+        {
+            "question": "What does an object in motion do if no external force acts on it?",
+            "answer": "It continues to move at a constant velocity."
+        },
+        {
+            "question": "What is meant by 'net force'?",
+            "answer": "Net force is the total force acting on an object after all the forces are combined."
+        }
+    ]
+}

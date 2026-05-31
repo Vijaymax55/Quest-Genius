@@ -1,0 +1,88 @@
+{
+    "paper_id": 12,
+    "class_name": "Class 10",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Second Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion state?",
+            "options": [
+                "A. An object at rest stays at rest.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. The path of a projectile is a straight line."
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled, what happens to the acceleration if the force remains constant?",
+            "options": [
+                "A. It doubles.",
+                "B. It halves.",
+                "C. It remains the same.",
+                "D. It quadruples."
+            ]
+        },
+        {
+            "question": "What unit is used to measure force?",
+            "options": [
+                "A. Kilogram",
+                "B. Newton",
+                "C. Joule",
+                "D. Meter"
+            ]
+        },
+        {
+            "question": "If an object has a mass of 10 kg and experiences a force of 50 N, what is its acceleration?",
+            "options": [
+                "A. 5 m/s\u00b2",
+                "B. 10 m/s\u00b2",
+                "C. 15 m/s\u00b2",
+                "D. 2 m/s\u00b2"
+            ]
+        },
+        {
+            "question": "Which of the following is not a factor in Newton's second law?",
+            "options": [
+                "A. Mass",
+                "B. Force",
+                "C. Velocity",
+                "D. Acceleration"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's second law states that the acceleration of an object is directly proportional to the _____ applied."
+        },
+        {
+            "question": "The law can be expressed with the formula _____ = mass \u00d7 acceleration."
+        },
+        {
+            "question": "If the acceleration is constant, the relationship between force and mass can be expressed as _____ = F/m."
+        },
+        {
+            "question": "When a net force acts on an object, it produces an acceleration in the _____ direction of the force."
+        },
+        {
+            "question": "The unit of mass in the SI system is _____"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the formula for calculating force according to Newton's Second Law?"
+        },
+        {
+            "question": "Explain how mass affects acceleration when a constant force is applied."
+        },
+        {
+            "question": "What is the significance of the direction of force in Newton's second law?"
+        },
+        {
+            "question": "Give one real-life example of Newton's Second Law of Motion."
+        },
+        {
+            "question": "Why do heavier objects require more force to move at the same acceleration as lighter objects?"
+        }
+    ]
+}

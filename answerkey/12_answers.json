@@ -1,0 +1,69 @@
+{
+    "paper_id": 12,
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion state?",
+            "answer": "B. Force equals mass times acceleration."
+        },
+        {
+            "question": "If the mass of an object is doubled, what happens to the acceleration if the force remains constant?",
+            "answer": "B. It halves."
+        },
+        {
+            "question": "What unit is used to measure force?",
+            "answer": "B. Newton"
+        },
+        {
+            "question": "If an object has a mass of 10 kg and experiences a force of 50 N, what is its acceleration?",
+            "answer": "A. 5 m/s\u00b2"
+        },
+        {
+            "question": "Which of the following is not a factor in Newton's second law?",
+            "answer": "C. Velocity"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Newton's second law states that the acceleration of an object is directly proportional to the _____ applied.",
+            "answer": "force"
+        },
+        {
+            "question": "The law can be expressed with the formula _____ = mass \u00d7 acceleration.",
+            "answer": "force"
+        },
+        {
+            "question": "If the acceleration is constant, the relationship between force and mass can be expressed as _____ = F/m.",
+            "answer": "a"
+        },
+        {
+            "question": "When a net force acts on an object, it produces an acceleration in the _____ direction of the force.",
+            "answer": "same"
+        },
+        {
+            "question": "The unit of mass in the SI system is _____",
+            "answer": "kilogram"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the formula for calculating force according to Newton's Second Law?",
+            "answer": "F = ma."
+        },
+        {
+            "question": "Explain how mass affects acceleration when a constant force is applied.",
+            "answer": "As mass increases, acceleration decreases."
+        },
+        {
+            "question": "What is the significance of the direction of force in Newton's second law?",
+            "answer": "The acceleration occurs in the same direction as the net force."
+        },
+        {
+            "question": "Give one real-life example of Newton's Second Law of Motion.",
+            "answer": "A car accelerating when the accelerator is pressed."
+        },
+        {
+            "question": "Why do heavier objects require more force to move at the same acceleration as lighter objects?",
+            "answer": "Because force is the product of mass and acceleration."
+        }
+    ]
+}

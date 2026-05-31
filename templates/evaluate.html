@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assessment Evaluation</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Add some basic styling for the evaluation results */
+        #evaluation-results {
+            margin-top: 20px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+        }
+        #evaluation-output table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 10px;
+        }
+        #evaluation-output th, #evaluation-output td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        #evaluation-output th {
+            background-color: #f2f2f2;
+        }
+        #download-report-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        #download-report-btn:hover {
+            background-color: #0056b3;
+        }
+    </style>
+    <!-- Include jsPDF and html2canvas libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</head>
+<body>
+    <!-- ✅ Header -->
+    <header>
+        <a href="/" class="logo-link">
+            <img src="{{ url_for('static', filename='images/logo.png') }}" alt="Quest-Genius Logo" class="logo">
+        </a>
+        <nav>
+            <ul>
+                <li><a href="/" class="{{ 'active' if request.path == '/' else '' }}"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="{{ url_for('summary', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'summary' else '' }}"><i class="fas fa-comment-alt"></i> Summarize & Chat</a></li>
+                <li><a href="{{ url_for('assessments', topic_id=1) }}" class="{{ 'active' if request.endpoint == 'assessments' else '' }}"><i class="fas fa-clipboard-list"></i> Assessments</a></li>
+                <li><a href="{{ url_for('submit', assessment_id=1) }}" class="{{ 'active' if request.endpoint == 'submit' else '' }}"><i class="fas fa-check-double"></i> Evaluation</a></li>
+                <li><a href="{{ url_for('evaluate', submission_id=1) }}" class="{{ 'active' if request.endpoint == 'evaluate' else '' }}"><i class="fas fa-info-circle"></i> About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ✅ Main Section -->
+    <main>
+        <section>
+            <h2>Upload Your Answer Sheets for Evaluation</h2>
+
+            <!-- Paper ID Input -->
+            <label for="paper-id">Enter Paper ID:</label>
+            <input type="text" id="paper-id" placeholder="Enter Paper ID" required>
+            <br><br>
+
+            <!-- ✅ Dedicated File Upload Section -->
+            <label for="image1">Upload Page 1:</label>
+            <input type="file" id="image1" name="images" accept="image/jpeg, image/png" required>
+            <br>
+            <img id="preview1" style="display: none; width: 150px; margin-top: 10px;"><br><br>
+
+            <label for="image2">Upload Page 2:</label>
+            <input type="file" id="image2" name="images" accept="image/jpeg, image/png" required>
+            <br>
+            <img id="preview2" style="display: none; width: 150px; margin-top: 10px;"><br><br>
+
+            <label for="image3">Upload Page 3:</label>
+            <input type="file" id="image3" name="images" accept="image/jpeg, image/png" required>
+            <br>
+            <img id="preview3" style="display: none; width: 150px; margin-top: 10px;"><br><br>
+
+            <!-- Submit Button -->
+            <button id="submit-btn" onclick="evaluateAssessment()">Submit for Evaluation</button>
+        </section>
+
+        <!-- ✅ Evaluation Results -->
+        <section id="evaluation-results" style="display: none;">
+            <h2>Evaluation Report</h2>
+            <p><strong>Paper ID:</strong> <span id="result-paper-id"></span></p>
+            <hr>
+            <div id="evaluation-output"></div>
+            <br>
+            <!-- Download Evaluation Report Button -->
+            <button id="download-report-btn" style="display: none;" onclick="downloadPDF()">Download Evaluation Report (PDF)</button>
+        </section>
+    </main>
+
+    <!-- ✅ JavaScript Section -->
+    <script>
+        // ✅ Function to Preview Uploaded Images
+        function previewImage(inputId, previewId) {
+            const fileInput = document.getElementById(inputId);
+            const preview = document.getElementById(previewId);
+
+            fileInput.addEventListener('change', function () {
+                if (fileInput.files.length > 0) {
+                    const file = fileInput.files[0];
+                    preview.src = URL.createObjectURL(file);
+                    preview.style.display = "block";
+                }
+            });
+        }
+
+        // ✅ Enable Preview for Each Image Input
+        previewImage('image1', 'preview1');
+        previewImage('image2', 'preview2');
+        previewImage('image3', 'preview3');
+
+        // ✅ Submit Assessment for Evaluation
+        async function evaluateAssessment() {
+            const paperId = document.getElementById('paper-id').value.trim();
+            const file1 = document.getElementById('image1').files[0];
+            const file2 = document.getElementById('image2').files[0];
+            const file3 = document.getElementById('image3').files[0];
+
+            if (!paperId) {
+                alert("Please enter the Paper ID.");
+                return;
+            }
+
+            if (!file1 || !file2 || !file3) {
+                alert("Please upload all three pages.");
+                return;
+            }
+
+            const formData = new FormData();
+            formData.append("paper_id", paperId);
+            formData.append("images", file1);
+            formData.append("images", file2);
+            formData.append("images", file3);
+
+            try {
+                document.getElementById('evaluation-results').style.display = 'block';
+                document.getElementById('evaluation-output').innerHTML = "Processing evaluation... Please wait.";
+
+                const response = await fetch("/api/evaluate_assessment", {
+                    method: "POST",
+                    body: formData
+                });
+
+                const data = await response.json();
+
+                if (!response.ok) {
+                    throw new Error(data.error || "Evaluation failed.");
+                }
+
+                // ✅ Display Evaluation Results
+                document.getElementById('result-paper-id').textContent = paperId;
+
+                // ✅ Render Results in a Table
+                const resultsTable = `
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Serial No.</th>
+                                <th>Question</th>
+                                <th>Marked Answer</th>
+                                <th>Correct Answer</th>
+                                <th>Feedback</th>
+                                <th>Score</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            ${data.evaluation_results.map(result => `
+                                <tr>
+                                    <td>${result.serial_number}</td>
+                                    <td>${result.question}</td>
+                                    <td>${result.student_answer}</td>
+                                    <td>${result.correct_answer}</td>
+                                    <td>${result.feedback}</td>
+                                    <td>${result.score}</td>
+                                </tr>
+                            `).join('')}
+                        </tbody>
+                    </table>
+                    <p><strong>Total Score: ${data.total_score} / 20</strong></p>
+                `;
+                document.getElementById('evaluation-output').innerHTML = resultsTable;
+
+                // ✅ Enable Download Button
+                const downloadBtn = document.getElementById('download-report-btn');
+                downloadBtn.style.display = 'inline-block';
+
+            } catch (error) {
+                document.getElementById('evaluation-output').innerHTML = `<p style='color: red;'>Error: ${error.message}</p>`;
+                console.error("Error:", error);
+            }
+        }
+
+        // ✅ Function to Download PDF
+        function downloadPDF() {
+            const { jsPDF } = window.jspdf;
+
+            // Capture the evaluation results section
+            const element = document.getElementById('evaluation-results');
+
+            html2canvas(element, {
+                scale: 2, // Increase scale for better quality
+                logging: true, // Enable logging for debugging
+                useCORS: true, // Enable CORS for external resources (if any)
+            }).then((canvas) => {
+                const imgData = canvas.toDataURL('image/png'); // Convert canvas to image
+                const imgWidth = 210; // A4 width in mm
+                const imgHeight = (canvas.height * imgWidth) / canvas.width; // Calculate height to maintain aspect ratio
+
+                const doc = new jsPDF('p', 'mm', 'a4'); // Create a new PDF in A4 format
+                doc.addImage(imgData, 'PNG', 0, 0, imgWidth, imgHeight); // Add the image to the PDF
+                doc.save('evaluation_report.pdf'); // Save the PDF
+            }).catch((error) => {
+                console.error("Error generating PDF:", error);
+                alert("Failed to generate PDF. Please try again.");
+            });
+        }
+    </script>
+
+    <!-- ✅ Footer Section -->
+    <footer>
+        <div class="footer-left">
+            Visitors: <span id="visitor-number">0</span>
+        </div>
+        <div class="footer-center">
+            <p>&copy; 2025 Quest-Genius: All rights reserved.</p>
+        </div>
+        <div class="footer-right">
+            <span id="date-time"></span>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+
+</body>
+</html>

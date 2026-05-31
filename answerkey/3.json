@@ -1,0 +1,88 @@
+{
+    "paper_id": 3,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Second Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion state?",
+            "options": [
+                "A. Every action has an equal and opposite reaction.",
+                "B. Force equals mass times acceleration.",
+                "C. Objects in motion stay in motion.",
+                "D. The acceleration of an object is constant."
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled and the acceleration remains constant, what happens to the force applied?",
+            "options": [
+                "A. It remains the same.",
+                "B. It doubles.",
+                "C. It halves.",
+                "D. It quadruples."
+            ]
+        },
+        {
+            "question": "Which unit is used to measure force in the International System of Units (SI)?",
+            "options": [
+                "A. Kilogram",
+                "B. Meter",
+                "C. Newton",
+                "D. Joule"
+            ]
+        },
+        {
+            "question": "According to Newton's Second Law, if an object experiences a net force of 20 N and has a mass of 5 kg, what is its acceleration?",
+            "options": [
+                "A. 2 m/s\u00b2",
+                "B. 4 m/s\u00b2",
+                "C. 5 m/s\u00b2",
+                "D. 10 m/s\u00b2"
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's Second Law in action?",
+            "options": [
+                "A. A car accelerating when the gas pedal is pressed.",
+                "B. A book resting on a table.",
+                "C. A ball falling to the ground.",
+                "D. A satellite orbiting the Earth."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's Second Law, F = ma, where F stands for ________."
+        },
+        {
+            "question": "The unit of mass in the SI system is ________."
+        },
+        {
+            "question": "An object will accelerate in the direction of the ________ force acting on it."
+        },
+        {
+            "question": "In Newton's Second Law, a greater force results in a greater ________."
+        },
+        {
+            "question": "If the mass of an object is 10 kg and the acceleration is 2 m/s\u00b2, the force acting on it is ________ Newtons."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between force, mass, and acceleration?"
+        },
+        {
+            "question": "How does increasing mass affect acceleration when force is constant?"
+        },
+        {
+            "question": "What is a practical application of Newton's Second Law in sports?"
+        },
+        {
+            "question": "Explain how seatbelts relate to Newton's Second Law."
+        },
+        {
+            "question": "What does a net force of zero imply about an object's motion?"
+        }
+    ]
+}

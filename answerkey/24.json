@@ -1,0 +1,88 @@
+{
+    "paper_id": 24,
+    "class_name": "Class 9",
+    "subject": "Biology",
+    "chapter": "Cell Structure",
+    "topic": "Organelles",
+    "mcqs": [
+        {
+            "question": "Which organelle is known as the powerhouse of the cell?",
+            "options": [
+                "A. Nucleus",
+                "B. Mitochondria",
+                "C. Ribosome",
+                "D. Golgi apparatus"
+            ]
+        },
+        {
+            "question": "What is the function of the endoplasmic reticulum?",
+            "options": [
+                "A. Energy production",
+                "B. Protein synthesis and lipid production",
+                "C. Photosynthesis",
+                "D. Waste disposal"
+            ]
+        },
+        {
+            "question": "Which organelle is responsible for packaging and modifying proteins?",
+            "options": [
+                "A. Ribosome",
+                "B. Golgi apparatus",
+                "C. Lysosome",
+                "D. Chloroplast"
+            ]
+        },
+        {
+            "question": "Which structure is selectively permeable and surrounds the cell?",
+            "options": [
+                "A. Cell wall",
+                "B. Plasma membrane",
+                "C. Cytoplasm",
+                "D. Nucleus"
+            ]
+        },
+        {
+            "question": "What is the primary function of lysosomes?",
+            "options": [
+                "A. Photosynthesis",
+                "B. Digestion of waste materials",
+                "C. Energy production",
+                "D. Protein synthesis"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The __________ is responsible for controlling the activities of the cell."
+        },
+        {
+            "question": "Ribosomes are the sites of __________ synthesis."
+        },
+        {
+            "question": "The __________ is a jelly-like substance where organelles are suspended."
+        },
+        {
+            "question": "Plant cells contain __________, which are responsible for photosynthesis."
+        },
+        {
+            "question": "The __________ provides structural support to plant cells."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the function of the mitochondria?"
+        },
+        {
+            "question": "Describe the role of the Golgi apparatus."
+        },
+        {
+            "question": "What is the difference between smooth and rough endoplasmic reticulum?"
+        },
+        {
+            "question": "What do lysosomes contain?"
+        },
+        {
+            "question": "Why are chloroplasts important for plant cells?"
+        }
+    ]
+}

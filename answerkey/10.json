@@ -1,0 +1,88 @@
+{
+    "paper_id": 10,
+    "class_name": "Class 9",
+    "subject": "Physics",
+    "chapter": "Reflection of Light",
+    "topic": "reflection",
+    "mcqs": [
+        {
+            "question": "What is the angle of incidence equal to when light reflects off a surface?",
+            "options": [
+                "A. Angle of refraction",
+                "B. 90 degrees",
+                "C. Angle of reflection",
+                "D. Angle of diffraction"
+            ]
+        },
+        {
+            "question": "Which law states that the angle of incidence is equal to the angle of reflection?",
+            "options": [
+                "A. Law of Refraction",
+                "B. Law of Reflection",
+                "C. Snell's Law",
+                "D. Newton's Law"
+            ]
+        },
+        {
+            "question": "What type of surface is needed for regular reflection?",
+            "options": [
+                "A. Rough surface",
+                "B. Smooth surface",
+                "C. Transparent surface",
+                "D. Opaque surface"
+            ]
+        },
+        {
+            "question": "What do we call the line perpendicular to the reflecting surface?",
+            "options": [
+                "A. Incident line",
+                "B. Normal line",
+                "C. Reflected line",
+                "D. Refracted line"
+            ]
+        },
+        {
+            "question": "In a plane mirror, the image formed is:",
+            "options": [
+                "A. Real and inverted",
+                "B. Virtual and upright",
+                "C. Both real and virtual",
+                "D. None of the above"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The angle of incidence is measured from the __________."
+        },
+        {
+            "question": "In reflection, the light rays bounce back into the same medium after striking a __________."
+        },
+        {
+            "question": "The distance of the image from the mirror is __________ to the distance of the object from the mirror."
+        },
+        {
+            "question": "A __________ mirror diverges light rays and produces a virtual image."
+        },
+        {
+            "question": "The law of reflection applies to both __________ and __________ surfaces."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is reflection of light?"
+        },
+        {
+            "question": "What are the characteristics of images formed by plane mirrors?"
+        },
+        {
+            "question": "Define the term 'normal' in the context of reflection."
+        },
+        {
+            "question": "What is the difference between regular and diffuse reflection?"
+        },
+        {
+            "question": "Why can we see our reflection in a mirror?"
+        }
+    ]
+}

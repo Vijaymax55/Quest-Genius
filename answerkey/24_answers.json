@@ -1,0 +1,69 @@
+{
+    "paper_id": 24,
+    "mcqs": [
+        {
+            "question": "Which organelle is known as the powerhouse of the cell?",
+            "answer": "B. Mitochondria"
+        },
+        {
+            "question": "What is the function of the endoplasmic reticulum?",
+            "answer": "B. Protein synthesis and lipid production"
+        },
+        {
+            "question": "Which organelle is responsible for packaging and modifying proteins?",
+            "answer": "B. Golgi apparatus"
+        },
+        {
+            "question": "Which structure is selectively permeable and surrounds the cell?",
+            "answer": "B. Plasma membrane"
+        },
+        {
+            "question": "What is the primary function of lysosomes?",
+            "answer": "B. Digestion of waste materials"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The __________ is responsible for controlling the activities of the cell.",
+            "answer": "nucleus"
+        },
+        {
+            "question": "Ribosomes are the sites of __________ synthesis.",
+            "answer": "protein"
+        },
+        {
+            "question": "The __________ is a jelly-like substance where organelles are suspended.",
+            "answer": "cytoplasm"
+        },
+        {
+            "question": "Plant cells contain __________, which are responsible for photosynthesis.",
+            "answer": "chloroplasts"
+        },
+        {
+            "question": "The __________ provides structural support to plant cells.",
+            "answer": "cell wall"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the function of the mitochondria?",
+            "answer": "Mitochondria produce energy in the form of ATP through cellular respiration."
+        },
+        {
+            "question": "Describe the role of the Golgi apparatus.",
+            "answer": "The Golgi apparatus modifies, sorts, and packages proteins for secretion or delivery to other organelles."
+        },
+        {
+            "question": "What is the difference between smooth and rough endoplasmic reticulum?",
+            "answer": "Rough ER has ribosomes on its surface and is involved in protein synthesis, while smooth ER is involved in lipid synthesis and detoxification."
+        },
+        {
+            "question": "What do lysosomes contain?",
+            "answer": "Lysosomes contain digestive enzymes that break down waste materials and cellular debris."
+        },
+        {
+            "question": "Why are chloroplasts important for plant cells?",
+            "answer": "Chloroplasts are essential for photosynthesis, allowing plants to convert sunlight into chemical energy."
+        }
+    ]
+}

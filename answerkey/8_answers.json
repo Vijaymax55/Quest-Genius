@@ -1,0 +1,69 @@
+{
+    "paper_id": 8,
+    "mcqs": [
+        {
+            "question": "According to Newton's second law, the force acting on an object is equal to the product of its mass and its acceleration. This is mathematically expressed as:",
+            "answer": "C. F = ma"
+        },
+        {
+            "question": "If a force of 10 N is applied to a mass of 2 kg, what is the acceleration?",
+            "answer": "B. 5 m/s\u00b2"
+        },
+        {
+            "question": "The SI unit of force is:",
+            "answer": "B. Newton"
+        },
+        {
+            "question": "Which of the following scenarios best illustrates Newton's second law of motion?",
+            "answer": "B. A car accelerating on a highway"
+        },
+        {
+            "question": "If the mass of an object is doubled, while the force applied remains constant, the acceleration will:",
+            "answer": "B. Halve"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's second law, force is directly proportional to ______ and ______.",
+            "answer": "mass, acceleration"
+        },
+        {
+            "question": "The formula for calculating force is ______.",
+            "answer": "F = ma"
+        },
+        {
+            "question": "The unit of mass in the SI system is ______.",
+            "answer": "kilogram"
+        },
+        {
+            "question": "If an object has a mass of 1 kg and is experiencing an acceleration of 9.8 m/s\u00b2, the force acting on it is ______ N.",
+            "answer": "9.8"
+        },
+        {
+            "question": "In a vacuum, all objects fall at the same ______ due to gravity.",
+            "answer": "acceleration"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's second law of motion?",
+            "answer": "It states that the force acting on an object is equal to the product of its mass and acceleration."
+        },
+        {
+            "question": "How does increasing the mass of an object affect its acceleration when a constant force is applied?",
+            "answer": "It decreases the acceleration."
+        },
+        {
+            "question": "What is the relationship between force, mass, and acceleration?",
+            "answer": "Force is the product of mass and acceleration."
+        },
+        {
+            "question": "Give an example of Newton's second law in everyday life.",
+            "answer": "Pushing a shopping cart; the harder you push (more force), the faster it accelerates."
+        },
+        {
+            "question": "What does the term 'net force' refer to?",
+            "answer": "The overall force acting on an object after all the forces are combined."
+        }
+    ]
+}

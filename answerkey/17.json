@@ -1,0 +1,88 @@
+{
+    "paper_id": 17,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Reflection of Light",
+    "topic": "reflection",
+    "mcqs": [
+        {
+            "question": "What is the law that governs the reflection of light?",
+            "options": [
+                "A. Law of Refraction",
+                "B. Law of Reflection",
+                "C. Law of Diffraction",
+                "D. Law of Dispersion"
+            ]
+        },
+        {
+            "question": "When light reflects off a surface, the angle of incidence is always:",
+            "options": [
+                "A. Greater than the angle of reflection",
+                "B. Less than the angle of reflection",
+                "C. Equal to the angle of reflection",
+                "D. None of the above"
+            ]
+        },
+        {
+            "question": "A plane mirror produces an image that is:",
+            "options": [
+                "A. Virtual and upright",
+                "B. Real and inverted",
+                "C. Real and upright",
+                "D. Virtual and inverted"
+            ]
+        },
+        {
+            "question": "The point where the incident ray, reflected ray, and normal meet is called:",
+            "options": [
+                "A. Focus",
+                "B. Vertex",
+                "C. Point of incidence",
+                "D. Center of curvature"
+            ]
+        },
+        {
+            "question": "Which of the following surfaces reflects light the best?",
+            "options": [
+                "A. Rough surface",
+                "B. Smooth surface",
+                "C. Transparent surface",
+                "D. Opaque surface"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The angle of incidence is measured from the _____ to the normal."
+        },
+        {
+            "question": "A mirror that has a flat surface is called a _____ mirror."
+        },
+        {
+            "question": "The image formed by a plane mirror is always _____ in nature."
+        },
+        {
+            "question": "In reflection, the incident ray, reflected ray, and normal lie in the same _____ plane."
+        },
+        {
+            "question": "The _____ is the line perpendicular to the surface at the point of incidence."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What happens to the light rays when they strike a smooth surface?"
+        },
+        {
+            "question": "Define the term 'virtual image'."
+        },
+        {
+            "question": "How does a concave mirror differ from a convex mirror in terms of image formation?"
+        },
+        {
+            "question": "What is the significance of the normal line in reflection?"
+        },
+        {
+            "question": "Name one practical application of reflection of light."
+        }
+    ]
+}

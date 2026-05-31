@@ -1,0 +1,88 @@
+{
+    "paper_id": 22,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Reflection of Light",
+    "topic": "reflection",
+    "mcqs": [
+        {
+            "question": "What is the angle of incidence if the angle of reflection is 30 degrees?",
+            "options": [
+                "A. 30 degrees",
+                "B. 60 degrees",
+                "C. 45 degrees",
+                "D. 75 degrees"
+            ]
+        },
+        {
+            "question": "Which of the following surfaces can reflect light?",
+            "options": [
+                "A. Rough surface",
+                "B. Smooth surface",
+                "C. Both A and B",
+                "D. None of the above"
+            ]
+        },
+        {
+            "question": "The law of reflection states that the angle of incidence is equal to the angle of ______.",
+            "options": [
+                "A. Refraction",
+                "B. Reflection",
+                "C. Diffraction",
+                "D. Dispersion"
+            ]
+        },
+        {
+            "question": "A plane mirror produces an image that is _____ compared to the object.",
+            "options": [
+                "A. Larger",
+                "B. Smaller",
+                "C. Same size",
+                "D. None of the above"
+            ]
+        },
+        {
+            "question": "What type of image is formed by a concave mirror when the object is placed between the focus and the mirror?",
+            "options": [
+                "A. Real and inverted",
+                "B. Virtual and upright",
+                "C. Real and upright",
+                "D. None of the above"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Light travels in a ______ line."
+        },
+        {
+            "question": "The point where the incident ray, reflected ray, and normal meet is called the ______."
+        },
+        {
+            "question": "The ______ of a mirror is the line that is perpendicular to its surface."
+        },
+        {
+            "question": "In a plane mirror, the image is located ______ behind the mirror."
+        },
+        {
+            "question": "The angle of incidence is measured with respect to the ______."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is reflection?"
+        },
+        {
+            "question": "What is the normal line?"
+        },
+        {
+            "question": "How does a concave mirror differ from a convex mirror?"
+        },
+        {
+            "question": "Define a virtual image."
+        },
+        {
+            "question": "What happens to parallel rays of light when they strike a concave mirror?"
+        }
+    ]
+}

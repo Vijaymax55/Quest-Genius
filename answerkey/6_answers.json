@@ -1,0 +1,69 @@
+{
+    "paper_id": 6,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "B. An object at rest stays at rest unless acted upon by a force"
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "answer": "B. A book resting on a table"
+        },
+        {
+            "question": "In the absence of external forces, a moving object will:",
+            "answer": "D. Continue moving in a straight line"
+        },
+        {
+            "question": "Which of the following best describes inertia?",
+            "answer": "A. The tendency of an object to resist changes in its motion"
+        },
+        {
+            "question": "If a hockey puck slides on ice, it will eventually stop because:",
+            "answer": "B. There are external forces acting on it"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest tends to stay at rest and an object in motion tends to stay in motion due to ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "Newton's First Law of Motion is also known as the law of ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is called ______.",
+            "answer": "inertia"
+        },
+        {
+            "question": "According to Newton's First Law, a force must be applied to change the ______ of an object.",
+            "answer": "motion"
+        },
+        {
+            "question": "Inertia depends on the ______ of an object.",
+            "answer": "mass"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the significance of inertia in everyday life?",
+            "answer": "Inertia explains why passengers lurch forward in a car when it suddenly stops."
+        },
+        {
+            "question": "How does mass affect inertia?",
+            "answer": "Greater mass means greater inertia, making it harder to change the object's motion."
+        },
+        {
+            "question": "Can you give an example of Newton's First Law in a vehicle?",
+            "answer": "A seatbelt prevents passengers from continuing forward in a car during sudden braking."
+        },
+        {
+            "question": "What happens to a ball rolling on a frictionless surface?",
+            "answer": "It will continue to roll indefinitely in a straight line due to inertia."
+        },
+        {
+            "question": "Explain the role of external forces in Newton's First Law.",
+            "answer": "External forces are needed to overcome inertia and change an object's state of motion."
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "paper_id": 29,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. A body at rest stays at rest",
+                "B. Force equals mass times acceleration",
+                "C. For every action, there is an equal and opposite reaction",
+                "D. Energy can neither be created nor destroyed"
+            ]
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "options": [
+                "A. A car accelerating",
+                "B. A book sliding off a table",
+                "C. A ball rolling on the ground",
+                "D. A stationary object staying at rest"
+            ]
+        },
+        {
+            "question": "In the absence of an external force, an object in motion will:",
+            "options": [
+                "A. Slow down",
+                "B. Change direction",
+                "C. Remain in motion",
+                "D. Come to a stop"
+            ]
+        },
+        {
+            "question": "If a moving object experiences no net force, it will:",
+            "options": [
+                "A. Stop moving",
+                "B. Continue moving at a constant velocity",
+                "C. Accelerate",
+                "D. Change its mass"
+            ]
+        },
+        {
+            "question": "What is the term used to describe an object's resistance to changes in its state of motion?",
+            "options": [
+                "A. Force",
+                "B. Mass",
+                "C. Inertia",
+                "D. Velocity"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object will remain at rest or in uniform motion unless acted upon by a ______."
+        },
+        {
+            "question": "The tendency of an object to resist changes in its state of motion is known as ______."
+        },
+        {
+            "question": "An object that is not moving will stay at ______ until a force causes it to move."
+        },
+        {
+            "question": "The First Law of Motion is also known as the law of ______."
+        },
+        {
+            "question": "The greater the mass of an object, the greater its ______."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is inertia?"
+        },
+        {
+            "question": "Give an example of Newton's First Law of Motion."
+        },
+        {
+            "question": "Why do passengers lurch forward in a car when it suddenly stops?"
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "What happens to a rolling ball on a frictionless surface?"
+        }
+    ]
+}

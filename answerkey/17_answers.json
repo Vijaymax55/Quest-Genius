@@ -1,0 +1,69 @@
+{
+    "paper_id": 17,
+    "mcqs": [
+        {
+            "question": "What is the law that governs the reflection of light?",
+            "answer": "B. Law of Reflection"
+        },
+        {
+            "question": "When light reflects off a surface, the angle of incidence is always:",
+            "answer": "C. Equal to the angle of reflection"
+        },
+        {
+            "question": "A plane mirror produces an image that is:",
+            "answer": "A. Virtual and upright"
+        },
+        {
+            "question": "The point where the incident ray, reflected ray, and normal meet is called:",
+            "answer": "C. Point of incidence"
+        },
+        {
+            "question": "Which of the following surfaces reflects light the best?",
+            "answer": "B. Smooth surface"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The angle of incidence is measured from the _____ to the normal.",
+            "answer": "normal"
+        },
+        {
+            "question": "A mirror that has a flat surface is called a _____ mirror.",
+            "answer": "plane"
+        },
+        {
+            "question": "The image formed by a plane mirror is always _____ in nature.",
+            "answer": "virtual"
+        },
+        {
+            "question": "In reflection, the incident ray, reflected ray, and normal lie in the same _____ plane.",
+            "answer": "plane"
+        },
+        {
+            "question": "The _____ is the line perpendicular to the surface at the point of incidence.",
+            "answer": "normal"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What happens to the light rays when they strike a smooth surface?",
+            "answer": "They reflect in an orderly manner."
+        },
+        {
+            "question": "Define the term 'virtual image'.",
+            "answer": "A virtual image is an image that cannot be projected on a screen."
+        },
+        {
+            "question": "How does a concave mirror differ from a convex mirror in terms of image formation?",
+            "answer": "A concave mirror can form real and inverted images, whereas a convex mirror always forms virtual and upright images."
+        },
+        {
+            "question": "What is the significance of the normal line in reflection?",
+            "answer": "The normal line helps in measuring the angles of incidence and reflection."
+        },
+        {
+            "question": "Name one practical application of reflection of light.",
+            "answer": "Reflection is used in periscopes to see objects that are not in the direct line of sight."
+        }
+    ]
+}

@@ -1,0 +1,88 @@
+{
+    "paper_id": 7,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Third Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's Third Law of Motion state?",
+            "options": [
+                "A. An object at rest stays at rest.",
+                "B. For every action, there is an equal and opposite reaction.",
+                "C. Force is equal to mass times acceleration.",
+                "D. Energy cannot be created or destroyed."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's Third Law?",
+            "options": [
+                "A. A car accelerating.",
+                "B. A rocket launching.",
+                "C. A book resting on a table.",
+                "D. A ball rolling down a hill."
+            ]
+        },
+        {
+            "question": "If you push against a wall, what happens according to Newton's Third Law?",
+            "options": [
+                "A. The wall moves towards you.",
+                "B. The wall exerts an equal force back on you.",
+                "C. You fall backwards.",
+                "D. Nothing happens."
+            ]
+        },
+        {
+            "question": "In which situation can we observe Newton's Third Law?",
+            "options": [
+                "A. When a car brakes.",
+                "B. When a swimmer pushes water backwards.",
+                "C. When a ball is thrown upwards.",
+                "D. When a pendulum swings."
+            ]
+        },
+        {
+            "question": "What is the action-reaction pair when a bird flies?",
+            "options": [
+                "A. Bird pushes air down, air pushes bird up.",
+                "B. Bird flaps wings, air moves away.",
+                "C. Bird moves forward, air moves backward.",
+                "D. Bird lands, ground pushes bird down."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's Third Law, for every action there is an equal and opposite ________."
+        },
+        {
+            "question": "When a person jumps off a small boat, the boat moves ________ in the opposite direction."
+        },
+        {
+            "question": "The force exerted by the ground on a standing person is equal to the force exerted by the person on the ________."
+        },
+        {
+            "question": "The principle of action and reaction is fundamental to ________ mechanics."
+        },
+        {
+            "question": "In a collision, the forces between two objects are equal in ________ and opposite in direction."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is meant by 'action' and 'reaction' in Newton's Third Law?"
+        },
+        {
+            "question": "Can you give an everyday example of Newton's Third Law?"
+        },
+        {
+            "question": "Why do rockets work in space according to Newton's Third Law?"
+        },
+        {
+            "question": "How does Newton's Third Law apply to swimming?"
+        },
+        {
+            "question": "What is the significance of action-reaction pairs?"
+        }
+    ]
+}

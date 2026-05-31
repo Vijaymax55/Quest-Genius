@@ -1,0 +1,88 @@
+{
+    "paper_id": 5,
+    "class_name": "Class 9",
+    "subject": "Chemistry",
+    "chapter": "Periodic Table",
+    "topic": "Groups and Periods",
+    "mcqs": [
+        {
+            "question": "What is the horizontal row in the periodic table called?",
+            "options": [
+                "A. Group",
+                "B. Period",
+                "C. Series",
+                "D. Family"
+            ]
+        },
+        {
+            "question": "Which of the following elements belongs to Group 1 of the periodic table?",
+            "options": [
+                "A. Magnesium",
+                "B. Sodium",
+                "C. Calcium",
+                "D. Iron"
+            ]
+        },
+        {
+            "question": "Elements in the same group of the periodic table have similar:",
+            "options": [
+                "A. Atomic numbers",
+                "B. Mass numbers",
+                "C. Chemical properties",
+                "D. Electron configurations"
+            ]
+        },
+        {
+            "question": "How many groups are there in the modern periodic table?",
+            "options": [
+                "A. 8",
+                "B. 18",
+                "C. 10",
+                "D. 12"
+            ]
+        },
+        {
+            "question": "Which of the following is not a characteristic of noble gases?",
+            "options": [
+                "A. They are inert",
+                "B. They have low boiling points",
+                "C. They are highly reactive",
+                "D. They exist as monatomic gases"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The vertical columns in the periodic table are known as __________."
+        },
+        {
+            "question": "Elements that are in the same group have the same number of __________ in their outermost shell."
+        },
+        {
+            "question": "The periodic table arranges elements according to increasing __________."
+        },
+        {
+            "question": "The first element in Group 17 is __________."
+        },
+        {
+            "question": "The elements in the same period have the same number of __________."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the significance of the periodic law?"
+        },
+        {
+            "question": "Name the elements found in Group 2."
+        },
+        {
+            "question": "What determines the position of an element in the periodic table?"
+        },
+        {
+            "question": "Why are alkali metals stored in oil?"
+        },
+        {
+            "question": "What are metalloids, and where are they located in the periodic table?"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "paper_id": 10,
+    "mcqs": [
+        {
+            "question": "What is the angle of incidence equal to when light reflects off a surface?",
+            "answer": "C. Angle of reflection"
+        },
+        {
+            "question": "Which law states that the angle of incidence is equal to the angle of reflection?",
+            "answer": "B. Law of Reflection"
+        },
+        {
+            "question": "What type of surface is needed for regular reflection?",
+            "answer": "B. Smooth surface"
+        },
+        {
+            "question": "What do we call the line perpendicular to the reflecting surface?",
+            "answer": "B. Normal line"
+        },
+        {
+            "question": "In a plane mirror, the image formed is:",
+            "answer": "B. Virtual and upright"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The angle of incidence is measured from the __________.",
+            "answer": "normal"
+        },
+        {
+            "question": "In reflection, the light rays bounce back into the same medium after striking a __________.",
+            "answer": "surface"
+        },
+        {
+            "question": "The distance of the image from the mirror is __________ to the distance of the object from the mirror.",
+            "answer": "equal"
+        },
+        {
+            "question": "A __________ mirror diverges light rays and produces a virtual image.",
+            "answer": "concave"
+        },
+        {
+            "question": "The law of reflection applies to both __________ and __________ surfaces.",
+            "answer": "smooth, rough"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is reflection of light?",
+            "answer": "Reflection of light is the bouncing back of light rays when they hit a surface."
+        },
+        {
+            "question": "What are the characteristics of images formed by plane mirrors?",
+            "answer": "Images formed by plane mirrors are virtual, upright, and of the same size as the object."
+        },
+        {
+            "question": "Define the term 'normal' in the context of reflection.",
+            "answer": "The normal is an imaginary line drawn perpendicular to the surface at the point of incidence."
+        },
+        {
+            "question": "What is the difference between regular and diffuse reflection?",
+            "answer": "Regular reflection occurs on smooth surfaces, while diffuse reflection occurs on rough surfaces."
+        },
+        {
+            "question": "Why can we see our reflection in a mirror?",
+            "answer": "We see our reflection in a mirror because of the regular reflection of light off the smooth surface of the mirror."
+        }
+    ]
+}

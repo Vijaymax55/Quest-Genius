@@ -1,0 +1,69 @@
+{
+    "paper_id": 3,
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion state?",
+            "answer": "B. Force equals mass times acceleration."
+        },
+        {
+            "question": "If the mass of an object is doubled and the acceleration remains constant, what happens to the force applied?",
+            "answer": "B. It doubles."
+        },
+        {
+            "question": "Which unit is used to measure force in the International System of Units (SI)?",
+            "answer": "C. Newton"
+        },
+        {
+            "question": "According to Newton's Second Law, if an object experiences a net force of 20 N and has a mass of 5 kg, what is its acceleration?",
+            "answer": "B. 4 m/s\u00b2"
+        },
+        {
+            "question": "Which of the following is an example of Newton's Second Law in action?",
+            "answer": "A. A car accelerating when the gas pedal is pressed."
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's Second Law, F = ma, where F stands for ________.",
+            "answer": "Force"
+        },
+        {
+            "question": "The unit of mass in the SI system is ________.",
+            "answer": "Kilogram"
+        },
+        {
+            "question": "An object will accelerate in the direction of the ________ force acting on it.",
+            "answer": "Net"
+        },
+        {
+            "question": "In Newton's Second Law, a greater force results in a greater ________.",
+            "answer": "Acceleration"
+        },
+        {
+            "question": "If the mass of an object is 10 kg and the acceleration is 2 m/s\u00b2, the force acting on it is ________ Newtons.",
+            "answer": "20"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between force, mass, and acceleration?",
+            "answer": "Force is equal to mass times acceleration (F = ma)."
+        },
+        {
+            "question": "How does increasing mass affect acceleration when force is constant?",
+            "answer": "Increasing mass decreases acceleration if the force is constant."
+        },
+        {
+            "question": "What is a practical application of Newton's Second Law in sports?",
+            "answer": "A football player pushing off the ground to sprint is an example."
+        },
+        {
+            "question": "Explain how seatbelts relate to Newton's Second Law.",
+            "answer": "Seatbelts provide the necessary force to stop passengers from accelerating forward during a sudden stop."
+        },
+        {
+            "question": "What does a net force of zero imply about an object's motion?",
+            "answer": "It implies that the object is either at rest or moving at a constant velocity."
+        }
+    ]
+}

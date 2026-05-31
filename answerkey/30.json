@@ -1,0 +1,88 @@
+{
+    "paper_id": 30,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "options": [
+                "A. An object at rest stays at rest.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. An object moves in a straight line unless acted upon."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law?",
+            "options": [
+                "A. A car accelerating on a highway.",
+                "B. A book resting on a table.",
+                "C. A ball being thrown.",
+                "D. A satellite orbiting Earth."
+            ]
+        },
+        {
+            "question": "Inertia is defined as the tendency of an object to:",
+            "options": [
+                "A. Change its position.",
+                "B. Stay at rest or in uniform motion.",
+                "C. Accelerate.",
+                "D. Apply force."
+            ]
+        },
+        {
+            "question": "What is the effect of mass on inertia?",
+            "options": [
+                "A. More mass means less inertia.",
+                "B. More mass means more inertia.",
+                "C. Mass has no effect on inertia.",
+                "D. Inertia is constant regardless of mass."
+            ]
+        },
+        {
+            "question": "Which object has more inertia?",
+            "options": [
+                "A. A feather.",
+                "B. A soccer ball.",
+                "C. A car.",
+                "D. A bicycle."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's First Law, an object at rest will remain at rest unless acted upon by a __________."
+        },
+        {
+            "question": "The property of matter that causes it to resist changes in its state of motion is called __________."
+        },
+        {
+            "question": "Objects with greater __________ have greater inertia."
+        },
+        {
+            "question": "If no net force acts on an object, its velocity will remain __________."
+        },
+        {
+            "question": "Newton's First Law is often referred to as the law of __________."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's First Law of Motion?"
+        },
+        {
+            "question": "Explain the concept of inertia."
+        },
+        {
+            "question": "How does mass affect inertia?"
+        },
+        {
+            "question": "Provide an example of Newton's First Law in everyday life."
+        },
+        {
+            "question": "What happens to a ball thrown in space?"
+        }
+    ]
+}

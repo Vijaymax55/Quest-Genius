@@ -1,0 +1,88 @@
+{
+    "paper_id": 2,
+    "class_name": "Class 9",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Second Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law of Motion relate to?",
+            "options": [
+                "A. Force and mass",
+                "B. Mass and velocity",
+                "C. Force, mass, and acceleration",
+                "D. Acceleration and distance"
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled, how will the acceleration change if the force remains constant?",
+            "options": [
+                "A. It will double",
+                "B. It will remain the same",
+                "C. It will be halved",
+                "D. It will quadruple"
+            ]
+        },
+        {
+            "question": "Which of the following equations represents Newton's Second Law of Motion?",
+            "options": [
+                "A. F = ma",
+                "B. F = mv",
+                "C. F = m/a",
+                "D. F = m + a"
+            ]
+        },
+        {
+            "question": "What unit is force measured in?",
+            "options": [
+                "A. Kilograms",
+                "B. Meters",
+                "C. Newtons",
+                "D. Joules"
+            ]
+        },
+        {
+            "question": "According to Newton's Second Law, if a net force acts on an object, it will...",
+            "options": [
+                "A. Stay at rest",
+                "B. Move in a circular path",
+                "C. Accelerate in the direction of the force",
+                "D. Decelerate"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The formula for calculating force is __________."
+        },
+        {
+            "question": "The unit of mass in SI units is __________."
+        },
+        {
+            "question": "Acceleration is defined as the rate of change of __________."
+        },
+        {
+            "question": "In the absence of a net force, an object at rest will remain at __________."
+        },
+        {
+            "question": "Newton's Second Law states that the acceleration of an object is directly proportional to the net __________ acting on it."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is the relationship between force, mass, and acceleration?"
+        },
+        {
+            "question": "How does increasing mass affect acceleration for a constant force?"
+        },
+        {
+            "question": "What is the significance of the net force in Newton's Second Law?"
+        },
+        {
+            "question": "Can an object be accelerating if the net force is zero?"
+        },
+        {
+            "question": "How does friction affect the motion of an object?"
+        }
+    ]
+}

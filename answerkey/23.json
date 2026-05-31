@@ -1,0 +1,88 @@
+{
+    "paper_id": 23,
+    "class_name": "Class 9",
+    "subject": "Chemistry",
+    "chapter": "Acids and Bases",
+    "topic": "Acid",
+    "mcqs": [
+        {
+            "question": "Which of the following is a strong acid?",
+            "options": [
+                "A. Acetic acid",
+                "B. Sulfuric acid",
+                "C. Citric acid",
+                "D. Carbonic acid"
+            ]
+        },
+        {
+            "question": "What is the pH range of acids?",
+            "options": [
+                "A. 0-7",
+                "B. 7-14",
+                "C. 0-14",
+                "D. 7"
+            ]
+        },
+        {
+            "question": "Which of the following is an organic acid?",
+            "options": [
+                "A. Hydrochloric acid",
+                "B. Nitric acid",
+                "C. Lactic acid",
+                "D. Phosphoric acid"
+            ]
+        },
+        {
+            "question": "What is the chemical formula of hydrochloric acid?",
+            "options": [
+                "A. H2SO4",
+                "B. HCl",
+                "C. HNO3",
+                "D. CH3COOH"
+            ]
+        },
+        {
+            "question": "Acids turn blue litmus paper:",
+            "options": [
+                "A. Red",
+                "B. Blue",
+                "C. Green",
+                "D. Yellow"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The substance that donates protons in a chemical reaction is called an ______."
+        },
+        {
+            "question": "The pH of pure water is ______."
+        },
+        {
+            "question": "Vinegar contains ______ acid."
+        },
+        {
+            "question": "The reaction of an acid with a base produces ______."
+        },
+        {
+            "question": "Citric acid is found in ______ fruits."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is an acid?"
+        },
+        {
+            "question": "Give an example of a strong acid."
+        },
+        {
+            "question": "What happens to litmus paper in the presence of an acid?"
+        },
+        {
+            "question": "Name a common household acid."
+        },
+        {
+            "question": "What is the effect of acids on metals?"
+        }
+    ]
+}

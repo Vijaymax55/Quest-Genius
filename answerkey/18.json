@@ -1,0 +1,88 @@
+{
+    "paper_id": 18,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "First Law",
+    "mcqs": [
+        {
+            "question": "Which of the following statements best describes Newton's First Law of Motion?",
+            "options": [
+                "A. An object in motion stays in motion unless acted upon by an external force.",
+                "B. Force equals mass times acceleration.",
+                "C. For every action, there is an equal and opposite reaction.",
+                "D. An object at rest will remain at rest unless acted upon by an external force."
+            ]
+        },
+        {
+            "question": "What is inertia?",
+            "options": [
+                "A. The tendency of an object to resist changes in its state of motion.",
+                "B. The force that causes an object to move.",
+                "C. The weight of an object.",
+                "D. The speed of an object."
+            ]
+        },
+        {
+            "question": "What happens to a stationary object when no external force acts on it?",
+            "options": [
+                "A. It starts moving.",
+                "B. It remains stationary.",
+                "C. It accelerates.",
+                "D. It changes direction."
+            ]
+        },
+        {
+            "question": "Which of the following is an example of Newton's First Law of Motion?",
+            "options": [
+                "A. A car accelerating when the driver presses the gas pedal.",
+                "B. A book sliding off a table.",
+                "C. A ball rolling on the ground eventually stopping due to friction.",
+                "D. A passenger continuing to move forward when the bus suddenly stops."
+            ]
+        },
+        {
+            "question": "In which situation does an object experience inertia?",
+            "options": [
+                "A. When it is in motion.",
+                "B. When it is at rest.",
+                "C. Both A and B.",
+                "D. When it is falling."
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest will remain at rest unless acted upon by an __________ force."
+        },
+        {
+            "question": "The property of an object to resist changes in its state of motion is called __________."
+        },
+        {
+            "question": "According to Newton's First Law, an object in motion will continue in its state of motion unless acted upon by an __________ force."
+        },
+        {
+            "question": "The First Law of Motion is also known as the Law of __________."
+        },
+        {
+            "question": "The tendency of a moving object to keep moving in a straight line is known as __________."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's First Law of Motion?"
+        },
+        {
+            "question": "Define inertia."
+        },
+        {
+            "question": "Give an example of Newton's First Law in everyday life."
+        },
+        {
+            "question": "How does Newton's First Law apply to a hockey puck sliding on ice?"
+        },
+        {
+            "question": "What role does friction play in Newton's First Law?"
+        }
+    ]
+}

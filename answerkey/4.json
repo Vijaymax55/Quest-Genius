@@ -1,0 +1,88 @@
+{
+    "paper_id": 4,
+    "class_name": "Class 9",
+    "subject": "Physics",
+    "chapter": "Reflection of Light",
+    "topic": "reflection",
+    "mcqs": [
+        {
+            "question": "What is the law that governs the reflection of light?",
+            "options": [
+                "A. Law of Refraction",
+                "B. Law of Reflection",
+                "C. Law of Diffraction",
+                "D. Law of Dispersion"
+            ]
+        },
+        {
+            "question": "The angle of incidence is measured from which line?",
+            "options": [
+                "A. Normal line",
+                "B. Incident ray",
+                "C. Reflected ray",
+                "D. Surface of the mirror"
+            ]
+        },
+        {
+            "question": "Which of the following surfaces reflects light the best?",
+            "options": [
+                "A. Rough surface",
+                "B. Smooth surface",
+                "C. Transparent surface",
+                "D. Opaque surface"
+            ]
+        },
+        {
+            "question": "A plane mirror produces an image that is:",
+            "options": [
+                "A. Virtual and upright",
+                "B. Real and inverted",
+                "C. Virtual and inverted",
+                "D. Real and upright"
+            ]
+        },
+        {
+            "question": "In which type of mirror does the image appear enlarged?",
+            "options": [
+                "A. Plane mirror",
+                "B. Concave mirror",
+                "C. Convex mirror",
+                "D. Flat mirror"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "The point where the incident ray strikes the mirror is called the __________."
+        },
+        {
+            "question": "The line perpendicular to the surface of the mirror at the point of incidence is called the __________."
+        },
+        {
+            "question": "The angle between the incident ray and the normal is called the angle of __________."
+        },
+        {
+            "question": "In a concave mirror, parallel rays of light converge at a point called the __________."
+        },
+        {
+            "question": "The image formed by a convex mirror is always __________."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "Define reflection of light."
+        },
+        {
+            "question": "What is a plane mirror?"
+        },
+        {
+            "question": "What happens to light rays when they hit a rough surface?"
+        },
+        {
+            "question": "Explain the difference between real and virtual images."
+        },
+        {
+            "question": "What type of image does a convex mirror produce?"
+        }
+    ]
+}

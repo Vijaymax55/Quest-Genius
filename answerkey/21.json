@@ -1,0 +1,88 @@
+{
+    "paper_id": 21,
+    "class_name": "Class 8",
+    "subject": "Physics",
+    "chapter": "Newton\u2019s Laws of Motion",
+    "topic": "Second Law",
+    "mcqs": [
+        {
+            "question": "What does Newton's Second Law state?",
+            "options": [
+                "A. For every action, there is an equal and opposite reaction.",
+                "B. The acceleration of an object is directly proportional to the net force acting on it.",
+                "C. An object in motion stays in motion unless acted upon by a force.",
+                "D. All of the above."
+            ]
+        },
+        {
+            "question": "If the mass of an object is doubled, what happens to its acceleration if the same force is applied?",
+            "options": [
+                "A. It doubles.",
+                "B. It halves.",
+                "C. It remains the same.",
+                "D. It quadruples."
+            ]
+        },
+        {
+            "question": "What is the unit of force in the International System of Units (SI)?",
+            "options": [
+                "A. Joule",
+                "B. Newton",
+                "C. Pascal",
+                "D. Watt"
+            ]
+        },
+        {
+            "question": "Which of the following formulas represents Newton's Second Law?",
+            "options": [
+                "A. F = ma",
+                "B. F = mv",
+                "C. F = mgh",
+                "D. F = 1/2 mv^2"
+            ]
+        },
+        {
+            "question": "Which of the following factors does NOT affect the acceleration of an object?",
+            "options": [
+                "A. The net force acting on it",
+                "B. The mass of the object",
+                "C. The shape of the object",
+                "D. The direction of the force"
+            ]
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "According to Newton's Second Law, force is equal to mass times _______."
+        },
+        {
+            "question": "The unit of mass in the SI system is _______."
+        },
+        {
+            "question": "The acceleration of an object is inversely proportional to its _______ when a constant force is applied."
+        },
+        {
+            "question": "If the net force acting on an object is zero, its acceleration is _______."
+        },
+        {
+            "question": "Newton's Second Law can be expressed in the formula _______."
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is meant by net force?"
+        },
+        {
+            "question": "How does increasing the force affect acceleration?"
+        },
+        {
+            "question": "What happens to an object's motion when forces are balanced?"
+        },
+        {
+            "question": "Explain the relationship between mass and acceleration."
+        },
+        {
+            "question": "What is the significance of the direction of force in Newton's Second Law?"
+        }
+    ]
+}

@@ -1,0 +1,69 @@
+{
+    "paper_id": 22,
+    "mcqs": [
+        {
+            "question": "What is the angle of incidence if the angle of reflection is 30 degrees?",
+            "answer": "A. 30 degrees"
+        },
+        {
+            "question": "Which of the following surfaces can reflect light?",
+            "answer": "C. Both A and B"
+        },
+        {
+            "question": "The law of reflection states that the angle of incidence is equal to the angle of ______.",
+            "answer": "B. Reflection"
+        },
+        {
+            "question": "A plane mirror produces an image that is _____ compared to the object.",
+            "answer": "C. Same size"
+        },
+        {
+            "question": "What type of image is formed by a concave mirror when the object is placed between the focus and the mirror?",
+            "answer": "B. Virtual and upright"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "Light travels in a ______ line.",
+            "answer": "straight"
+        },
+        {
+            "question": "The point where the incident ray, reflected ray, and normal meet is called the ______.",
+            "answer": "point of incidence"
+        },
+        {
+            "question": "The ______ of a mirror is the line that is perpendicular to its surface.",
+            "answer": "normal"
+        },
+        {
+            "question": "In a plane mirror, the image is located ______ behind the mirror.",
+            "answer": "the same distance"
+        },
+        {
+            "question": "The angle of incidence is measured with respect to the ______.",
+            "answer": "normal"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is reflection?",
+            "answer": "Reflection is the bouncing back of light rays when they hit a surface."
+        },
+        {
+            "question": "What is the normal line?",
+            "answer": "The normal line is an imaginary line perpendicular to the surface at the point of incidence."
+        },
+        {
+            "question": "How does a concave mirror differ from a convex mirror?",
+            "answer": "A concave mirror converges light rays, while a convex mirror diverges them."
+        },
+        {
+            "question": "Define a virtual image.",
+            "answer": "A virtual image is one that cannot be projected on a screen and appears to be behind the mirror."
+        },
+        {
+            "question": "What happens to parallel rays of light when they strike a concave mirror?",
+            "answer": "Parallel rays converge at the focal point after reflection."
+        }
+    ]
+}

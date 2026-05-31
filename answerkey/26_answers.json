@@ -1,0 +1,69 @@
+{
+    "paper_id": 26,
+    "mcqs": [
+        {
+            "question": "What does Newton's First Law of Motion state?",
+            "answer": "A"
+        },
+        {
+            "question": "Which of the following is an example of inertia?",
+            "answer": "B"
+        },
+        {
+            "question": "What is meant by 'inertia'?",
+            "answer": "B"
+        },
+        {
+            "question": "If no net force acts on a moving object, it will:",
+            "answer": "D"
+        },
+        {
+            "question": "Which of the following best exemplifies Newton's First Law?",
+            "answer": "C"
+        }
+    ],
+    "fill_in_the_blanks": [
+        {
+            "question": "An object at rest tends to stay at rest, and an object in motion tends to stay in motion unless acted upon by a ________.",
+            "answer": "force"
+        },
+        {
+            "question": "The property of an object to resist changes in its state of motion is called ________.",
+            "answer": "inertia"
+        },
+        {
+            "question": "Newton's First Law is also known as the law of ________.",
+            "answer": "inertia"
+        },
+        {
+            "question": "If a net external force is applied to an object, it will cause the object to ________.",
+            "answer": "accelerate"
+        },
+        {
+            "question": "A stationary object will remain ________ unless a force acts on it.",
+            "answer": "stationary"
+        }
+    ],
+    "short_questions": [
+        {
+            "question": "What is Newton's First Law of Motion?",
+            "answer": "It states that an object will remain at rest or in uniform motion unless acted upon by an external force."
+        },
+        {
+            "question": "How does inertia relate to mass?",
+            "answer": "Inertia is directly related to mass; greater mass means greater inertia."
+        },
+        {
+            "question": "Can you give an everyday example of Newton's First Law?",
+            "answer": "A book on a table remains at rest until someone picks it up."
+        },
+        {
+            "question": "What happens to a moving car if no brakes are applied?",
+            "answer": "It will continue to move at a constant speed in a straight line."
+        },
+        {
+            "question": "Why do passengers lurch forward when a bus suddenly stops?",
+            "answer": "Due to inertia, their bodies tend to maintain their state of motion."
+        }
+    ]
+}
