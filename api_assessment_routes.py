@@ -4,14 +4,12 @@ import json
 import os
 from flask import send_file
 from fpdf import FPDF
-import json
+from fpdf.enums import XPos, YPos
 import unicodedata
+import config
 
 # Define Blueprint for API Routes
 api_assessment_routes = Blueprint("api_assessment_routes", __name__)
-
-# OpenAI API Key
-OPENAI_API_KEY = os.environ.get("OPENAI_API_KEY")
 
 # Fine-Tuned Model Details
 FINE_TUNED_MODEL = "gpt-4o-mini"
@@ -38,7 +36,7 @@ fine_tuned_data = load_fine_tuned_data()
 
 # ✅ Initialize OpenAI Client
 def initialize_client():
-    return openai.OpenAI(api_key=OPENAI_API_KEY)
+    return openai.OpenAI(api_key=config.OPENAI_API_KEY)
 
 # ✅ Fetch Relevant NCERT Content
 def get_relevant_content(class_name, subject, chapter, topic):
@@ -216,8 +214,8 @@ def json_to_pdf(json_data, filename, title, include_answers=False):
         pdf.add_page()
 
         # ✅ Set Title
-        pdf.set_font("Arial", style="B", size=16)
-        pdf.cell(200, 10, clean_text(title), ln=True, align='C')
+        pdf.set_font("Helvetica", style="B", size=16)
+        pdf.cell(200, 10, clean_text(title), new_x=XPos.LMARGIN, new_y=YPos.NEXT, align='C')
         pdf.ln(10)
 
         # ✅ Validate JSON Structure
@@ -232,72 +230,72 @@ def json_to_pdf(json_data, filename, title, include_answers=False):
         chapter = clean_text(json_data.get("chapter", "N/A"))
         topic = clean_text(json_data.get("topic", "N/A"))
 
-        pdf.set_font("Arial", style="B", size=12)
-        pdf.cell(200, 8, f"Paper ID: {paper_id}", ln=True)
-        pdf.cell(200, 8, f"Class: {class_name}", ln=True)
-        pdf.cell(200, 8, f"Subject: {subject}", ln=True)
-        pdf.cell(200, 8, f"Chapter: {chapter}", ln=True)
-        pdf.cell(200, 8, f"Topic: {topic}", ln=True)
+        pdf.set_font("Helvetica", style="B", size=12)
+        pdf.cell(200, 8, f"Paper ID: {paper_id}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.cell(200, 8, f"Class: {class_name}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.cell(200, 8, f"Subject: {subject}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.cell(200, 8, f"Chapter: {chapter}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
+        pdf.cell(200, 8, f"Topic: {topic}", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(10)
 
         # ✅ Section: Multiple Choice Questions (MCQs)
-        pdf.set_font("Arial", style="B", size=14)
-        pdf.cell(200, 8, "Multiple Choice Questions (Darken the circle around the second character including point):", ln=True)
+        pdf.set_font("Helvetica", style="B", size=14)
+        pdf.cell(200, 8, "Multiple Choice Questions (Darken the circle around the second character including point):", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(5)
 
-        pdf.set_font("Arial", size=12)
+        pdf.set_font("Helvetica", size=12)
         mcqs = json_data.get("mcqs", [])
         if not isinstance(mcqs, list):
             print("⚠️ Warning: MCQs data is not a list, skipping...")
             mcqs = []
         for i, q in enumerate(mcqs, start=1):
-            pdf.multi_cell(0, 8, clean_text(f"{i}. {q.get('question', '')}"))
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"{i}. {q.get('question', '')}"))
             options = q.get("options", [])
             if isinstance(options, list):
                 for j, option in enumerate(options):
-                    pdf.multi_cell(0, 8, clean_text(f"    {chr(65 + j)}. {option}"))
+                    pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"    {chr(65 + j)}. {option}"))
             if include_answers:
                 pdf.set_text_color(0, 128, 0)  # Green color for answer
-                pdf.multi_cell(0, 8, clean_text(f"    ✅ Answer: {q.get('answer', '')}"))
+                pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"    ✅ Answer: {q.get('answer', '')}"))
                 pdf.set_text_color(0, 0, 0)  # Reset text color
             pdf.ln(5)
 
         # ✅ Section: Fill in the Blanks
-        pdf.set_font("Arial", style="B", size=14)
-        pdf.cell(200, 8, "Fill in the Blanks (Write your answer at the end of each sentence after \"Ans:\"):", ln=True)
+        pdf.set_font("Helvetica", style="B", size=14)
+        pdf.cell(200, 8, "Fill in the Blanks (Write your answer at the end of each sentence after \"Ans:\"):", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(5)
-        pdf.set_font("Arial", size=12)
+        pdf.set_font("Helvetica", size=12)
         blanks = json_data.get("fill_in_the_blanks", [])
         if not isinstance(blanks, list):
             print("⚠️ Warning: Fill in the blanks data is not a list, skipping...")
             blanks = []
         for i, q in enumerate(blanks, start=1):
-            pdf.multi_cell(0, 8, clean_text(f"{i}. {q.get('question', '')} Ans:"))
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"{i}. {q.get('question', '')} Ans:"))
             if include_answers:
                 pdf.set_text_color(0, 128, 0)
-                pdf.multi_cell(0, 8, clean_text(f"    ✅ Answer: {q.get('answer', '')}"))
+                pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"    ✅ Answer: {q.get('answer', '')}"))
                 pdf.set_text_color(0, 0, 0)
             pdf.ln(5)
 
         # ✅ Section: Short Answer Questions
-        pdf.set_font("Arial", style="B", size=14)
-        pdf.cell(200, 8, "Short Answer Questions (max 2-3 lines):", ln=True)
+        pdf.set_font("Helvetica", style="B", size=14)
+        pdf.cell(200, 8, "Short Answer Questions (max 2-3 lines):", new_x=XPos.LMARGIN, new_y=YPos.NEXT)
         pdf.ln(5)
-        pdf.set_font("Arial", size=12)
+        pdf.set_font("Helvetica", size=12)
         short_questions = json_data.get("short_questions", [])
         if not isinstance(short_questions, list):
             print("⚠️ Warning: Short answer questions data is not a list, skipping...")
             short_questions = []
         for i, q in enumerate(short_questions, start=1):
-            pdf.multi_cell(0, 8, clean_text(f"{i}. {q.get('question', '')}"))
-            pdf.set_font("Arial", size=12)
-            pdf.multi_cell(0, 8, "Ans: ________________")  # Placeholder for the answer
-            pdf.multi_cell(0, 8, "    ________________")  # Additional line if needed
-            pdf.multi_cell(0, 8, "    ________________")  # Additional line if needed
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text=clean_text(f"{i}. {q.get('question', '')}"))
+            pdf.set_font("Helvetica", size=12)
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text="Ans: ________________")  # Placeholder for the answer
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text="    ________________")  # Additional line if needed
+            pdf.multi_cell(0, 8, new_x=XPos.LMARGIN, new_y=YPos.NEXT, text="    ________________")  # Additional line if needed
             pdf.ln(5)
 
         # ✅ Save PDF
-        pdf.output(filename, "F")
+        pdf.output(filename)
         print(f"✅ PDF Successfully Created: {filename}")
         return True
     except Exception as e:

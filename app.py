@@ -1,12 +1,12 @@
+import config  # Loads .env and validates required settings; must be imported first
 from flask import Flask, render_template, session
 from datetime import datetime
-import os
 
 # Import Blueprints
 from api_routes import api_routes
 
 app = Flask(__name__)
-app.config['SECRET_KEY'] = os.urandom(24)  # Necessary if using sessions
+app.config['SECRET_KEY'] = config.SECRET_KEY  # Necessary if using sessions
 
 # Static Data for Topics
 topics = [
@@ -61,4 +61,4 @@ def evaluate(submission_id):
     return render_template('about.html', submission_id=submission_id, time=datetime.now())
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(debug=config.FLASK_DEBUG)

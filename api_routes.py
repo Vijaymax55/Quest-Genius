@@ -2,7 +2,7 @@ from flask import Blueprint, request, jsonify, session
 import openai
 import re
 import json
-import os
+import config
 
 # Initialize a Flask Blueprint
 api_routes = Blueprint('api_routes', __name__)
@@ -17,9 +17,7 @@ def initialize_client():
     """
     Initialize the OpenAI client with the fine-tuned API key.
     """
-    return openai.OpenAI(
-        api_key=os.environ.get("OPENAI_API_KEY")
-    )
+    return openai.OpenAI(api_key=config.OPENAI_API_KEY)
 
 # Generate Summary with Two-Layer Fine-Tuned Model
 def generate_summary_with_fine_tuned_model(class_name, subject, chapter, topic):

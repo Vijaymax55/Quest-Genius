@@ -12,28 +12,47 @@ An AI-powered NCERT learning platform that helps Class 8–10 students with topi
 
 ## Tech Stack
 
-- **Backend:** Python, Flask
+- **Backend:** Python 3.12, Flask
 - **AI:** OpenAI GPT-4o-mini
 - **OCR:** Tesseract (pytesseract)
-- **PDF Generation:** fpdf
+- **PDF Generation:** fpdf2
 - **Frontend:** HTML, CSS, JavaScript
+- **Tooling:** [uv](https://docs.astral.sh/uv/) for Python and dependency management
 
 ## Project Structure
 
 ```
 Quest-Genius/
 ├── app.py                      # Main Flask application
+├── config.py                   # Loads .env and validates settings
 ├── api_routes.py               # Summary & chatbot API routes
 ├── api_assessment_routes.py    # Question generation & PDF routes
 ├── api_evaluation_routes.py    # Assessment evaluation routes
 ├── fine_tunning.py             # Script to prepare fine-tuning data
 ├── fine_tuning_data.jsonl      # NCERT training data (JSONL)
 ├── learning_materials/         # NCERT PDFs (Class 8, 9, 10)
-├── answerkey/                  # Generated question papers & answer keys
+├── answerkey/                  # Generated papers & answer keys (runtime, not tracked)
 ├── templates/                  # HTML templates
 ├── static/                     # CSS, JS, images
+├── pyproject.toml / uv.lock    # Dependencies
 └── .env.example                # Environment variable template
 ```
+
+## Prerequisites
+
+- **uv** — installs Python 3.12 and all Python packages for you:
+  ```bash
+  curl -LsSf https://astral.sh/uv/install.sh | sh
+  ```
+- **Tesseract OCR** — a system program used to read handwritten answer sheets. It is **not** a Python package, so `uv sync` does not install it:
+  ```bash
+  # macOS
+  brew install tesseract
+
+  # Ubuntu / Debian
+  sudo apt install tesseract-ocr
+  ```
+- **An OpenAI API key** — from https://platform.openai.com/api-keys
 
 ## Setup
 
@@ -47,41 +66,37 @@ cd Quest-Genius
 ### 2. Install dependencies
 
 ```bash
-pip install flask openai pillow pytesseract fuzzywuzzy fpdf pdfplumber
+uv sync
 ```
 
-Also install Tesseract OCR:
+This creates a `.venv/` with Python 3.12 and every dependency pinned in `uv.lock`.
 
-```bash
-# macOS
-brew install tesseract
-
-# Ubuntu
-sudo apt install tesseract-ocr
-```
-
-### 3. Set your OpenAI API key
+### 3. Create your `.env`
 
 ```bash
 cp .env.example .env
 ```
 
-Edit `.env` and add your key:
+Then edit `.env`:
 
-```
-OPENAI_API_KEY=your_openai_api_key_here
-```
+| Variable         | Required | Description                                                                 |
+|------------------|----------|-----------------------------------------------------------------------------|
+| `OPENAI_API_KEY` | Yes      | Your OpenAI API key. The app refuses to start without it.                   |
+| `SECRET_KEY`     | No       | Flask session signing key. Falls back to an insecure dev-only default.      |
+| `FLASK_DEBUG`    | No       | `true` enables the debugger and auto-reload. Defaults to `false`.           |
 
-Then export it before running:
+Generate a `SECRET_KEY` with:
 
 ```bash
-export OPENAI_API_KEY=your_openai_api_key_here
+uv run python -c "import secrets; print(secrets.token_hex(32))"
 ```
+
+`.env` is git-ignored — never commit it.
 
 ### 4. Run the app
 
 ```bash
-python app.py
+uv run python app.py
 ```
 
 Open your browser at `http://localhost:5000`
@@ -96,6 +111,6 @@ Open your browser at `http://localhost:5000`
 
 ## Notes
 
-- The `answerkey/` folder stores generated question papers and answer keys locally
+- The `answerkey/` folder stores generated question papers and answer keys locally and is not tracked in git
 - Learning materials are NCERT PDFs for Class 8, 9, and 10
-- Fine-tuning data is generated from learning materials using `fine_tunning.py`
+- Fine-tuning data is generated from learning materials using `uv run python fine_tunning.py`

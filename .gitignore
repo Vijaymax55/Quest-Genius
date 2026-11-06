@@ -1,24 +1,20 @@
-# Environment variables
+# Environment variables / secrets
 .env
 .env.local
 
 # Python
-__pycache__/
-*.py[cod]
-*.pyo
-*.pyd
-*.egg-info/
-dist/
-build/
-venv/
 .venv/
-env/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Runtime data: generated question papers, answer keys, uploads
+answerkey/
 
 # macOS
 .DS_Store
-
-# Generated PDFs and answer key data (runtime-generated)
-answerkey/*.pdf
 
 # IDE
 .vscode/

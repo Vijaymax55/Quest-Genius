@@ -6,6 +6,7 @@ import json
 from fuzzywuzzy import fuzz
 import os
 import openai
+import config
 
 # Define Blueprint for Evaluation Routes
 api_evaluation_routes = Blueprint("api_evaluation_routes", __name__)
@@ -16,11 +17,7 @@ os.makedirs(ANSWER_KEY_DIR, exist_ok=True)
 
 # Initialize the OpenAI client
 def initialize_client():
-    api_key = os.environ.get("OPENAI_API_KEY")
-    if not api_key:
-        raise ValueError("OpenAI API key is missing. Please set it in the code or as an environment variable.")
-    client = openai.OpenAI(api_key=api_key)
-    return client
+    return openai.OpenAI(api_key=config.OPENAI_API_KEY)
 
 client = initialize_client()
 
