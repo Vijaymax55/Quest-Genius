@@ -11,6 +11,9 @@ import config
 # Define Blueprint for Evaluation Routes
 api_evaluation_routes = Blueprint("api_evaluation_routes", __name__)
 
+# Point pytesseract at the Tesseract binary found (or configured) in config.py
+pytesseract.pytesseract.tesseract_cmd = config.TESSERACT_CMD
+
 # ✅ Ensure Answer Key Directory Exists
 ANSWER_KEY_DIR = "answerkey"
 os.makedirs(ANSWER_KEY_DIR, exist_ok=True)
@@ -234,7 +237,7 @@ def get_feedback(client, question, student_answer, correct_answer):
     """Generate feedback using GPT."""
     try:
         response = client.chat.completions.create(
-            model="gpt-4",
+            model=config.OPENAI_MODEL,
             messages=[
                 {"role": "system", "content": "You are an AI trained to provide educational feedback. Evaluate the student's answer for correctness and clarity."},
                 {"role": "user", "content": f"Question: {question}\nStudent Answer: {student_answer}\nCorrect Answer: {correct_answer}"}

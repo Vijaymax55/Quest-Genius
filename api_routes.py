@@ -38,7 +38,7 @@ def generate_summary_with_fine_tuned_model(class_name, subject, chapter, topic):
     client = initialize_client()
 
     try:
-        fine_tuned_model = "gpt-4o-mini"
+        fine_tuned_model = config.OPENAI_MODEL
 
         # Retrieve relevant NCERT content for fine-tuning
         ncert_context = ""
@@ -126,7 +126,7 @@ def chat_with_bot(query, chapter_context):
     client = initialize_client()
 
     try:
-        fine_tuned_model = "gpt-4o-mini"
+        fine_tuned_model = config.OPENAI_MODEL
 
         # First, generate detailed response
         response = client.chat.completions.create(

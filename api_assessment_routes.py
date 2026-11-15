@@ -12,7 +12,7 @@ import config
 api_assessment_routes = Blueprint("api_assessment_routes", __name__)
 
 # Fine-Tuned Model Details
-FINE_TUNED_MODEL = "gpt-4o-mini"
+FINE_TUNED_MODEL = config.OPENAI_MODEL
 FINE_TUNED_DATA_PATH = "fine_tuning_data.jsonl"
 
 # ✅ Ensure Answer Key Directory Exists

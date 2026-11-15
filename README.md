@@ -99,7 +99,7 @@ uv run python -c "import secrets; print(secrets.token_hex(32))"
 uv run python app.py
 ```
 
-Open your browser at `http://localhost:5000`
+Open your browser at `http://localhost:5050`
 
 ## Usage
 
