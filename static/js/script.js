@@ -3,13 +3,6 @@ document.addEventListener("DOMContentLoaded", function () {
     console.log("JavaScript is working!");
 
 
-    // Increment the visitor count - MODIFIED SECTION
-    const visitorCountKey = "visitorCount";
-    let visitorCount = parseInt(localStorage.getItem(visitorCountKey)) || 0;
-    visitorCount++; // Natural increment
-    localStorage.setItem(visitorCountKey, visitorCount);
-    document.getElementById("visitor-number").innerText = visitorCount.toLocaleString();
-
     // Display the current date and time in IST with a 12-hour format
     function updateDateTime() {
         const options = {
